@@ -328,7 +328,10 @@ export function WhatIfPanel({
   }
 
   return (
-    <Card id="what-if" className="mt-6 border-emerald-500/25 scroll-mt-20">
+    <Card
+      id="what-if"
+      className="mt-6 scroll-mt-20 border-2 border-black ring-0 dark:border-white"
+    >
       <CardHeader>
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
