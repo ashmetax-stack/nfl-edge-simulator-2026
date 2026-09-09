@@ -79,7 +79,8 @@ export default function HomePage() {
               Week {meta.currentWeek} featured games
             </h2>
             <p className="text-muted-foreground text-sm">
-              Competitive openers with predicted score, spread, total, and win %
+              This week's slate in kickoff order — predicted score, spread,
+              total, and win %
             </p>
           </div>
           <Link

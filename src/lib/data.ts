@@ -74,7 +74,25 @@ export function getPrediction(gameId: string): GamePrediction | undefined {
   return predictionByGameId.get(gameId);
 }
 
-/** Join schedule + teams + precomputed predictions for UI tables. */
+/**
+ * Sort key from YYYY-MM-DD + "8:20 PM ET" so lists follow the slate,
+ * not JSON insertion or model closeness.
+ */
+export function gameKickoffSortKey(game: Game): string {
+  const match = game.kickoff.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+  let hours = 0;
+  let minutes = 0;
+  if (match) {
+    hours = Number(match[1]);
+    minutes = Number(match[2]);
+    const mer = match[3]!.toUpperCase();
+    if (mer === "PM" && hours !== 12) hours += 12;
+    if (mer === "AM" && hours === 12) hours = 0;
+  }
+  return `${game.date}T${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}`;
+}
+
+/** Join schedule + teams + predictions, sorted by kickoff. */
 export function getGamesWithPredictions(): GameWithPrediction[] {
   return games
     .map((game) => {
@@ -84,7 +102,12 @@ export function getGamesWithPredictions(): GameWithPrediction[] {
       if (!homeTeam || !awayTeam || !prediction) return null;
       return { game, homeTeam, awayTeam, prediction };
     })
-    .filter((x): x is GameWithPrediction => x !== null);
+    .filter((x): x is GameWithPrediction => x !== null)
+    .sort(
+      (a, b) =>
+        gameKickoffSortKey(a.game).localeCompare(gameKickoffSortKey(b.game)) ||
+        a.game.id.localeCompare(b.game.id)
+    );
 }
 
 export function getGameWithPrediction(
@@ -99,15 +122,8 @@ export function getGamesByWeek(week: number): GameWithPrediction[] {
 
 export function getFeaturedGames(limit = 6): GameWithPrediction[] {
   const week = meta.currentWeek;
-  const weekGames = getGamesByWeek(week);
-  // Prefer competitive games (win prob closer to 50%) for homepage interest
-  return [...weekGames]
-    .sort(
-      (a, b) =>
-        Math.abs(a.prediction.homeWinProb - 0.5) -
-        Math.abs(b.prediction.homeWinProb - 0.5)
-    )
-    .slice(0, limit);
+  // Earliest kickoff first so the next game on the slate leads the homepage.
+  return getGamesByWeek(week).slice(0, limit);
 }
 
 export function searchGames(
