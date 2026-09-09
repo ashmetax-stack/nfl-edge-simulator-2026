@@ -49,7 +49,7 @@ export function getRatingsBadgeText(): string {
     year: "numeric",
   });
   if (sm.statsWeek == null || sm.gamesPlayedMax <= 0) {
-    return `Ratings: ${sm.priorSeason} season baseline · updated ${when}`;
+    return `Ratings: ${sm.priorSeason} full-season rates`;
   }
   return `Ratings as of Week ${sm.statsWeek} · ${sm.currentSeason} YTD blended · ${when}`;
 }

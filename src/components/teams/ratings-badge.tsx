@@ -52,7 +52,7 @@ export function RatingsBadge({
       >
         <p className="font-medium text-foreground">
           {preseason
-            ? `Using ${meta.priorSeason} full-season rates (preseason baseline)`
+            ? `Using ${meta.priorSeason} full-season rates`
             : `Ratings as of Week ${meta.statsWeek} (${meta.currentSeason} season)`}
         </p>
         <p className="text-muted-foreground text-xs leading-relaxed">
@@ -69,7 +69,7 @@ export function RatingsBadge({
   return (
     <Badge variant="secondary" className={cn("font-normal", className)}>
       {preseason
-        ? `Ratings: ${meta.priorSeason} baseline · ${when}`
+        ? `Ratings: ${meta.priorSeason} full-season rates`
         : `Ratings: Week ${meta.statsWeek} · ${when}`}
     </Badge>
   );
