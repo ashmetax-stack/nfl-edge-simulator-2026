@@ -6,13 +6,13 @@
     "source": "espn",
     "priorSeason": 2025,
     "currentSeason": 2026,
-    "statsAsOf": "2026-08-14T01:19:55.139Z",
+    "statsAsOf": "2026-09-09T21:12:22.462Z",
     "statsWeek": null,
     "gamesPlayedMax": 0,
     "blendGamesFullWeight": 8,
     "blendWeightCurrentMean": 0,
     "leagueAvgPpg": 23,
-    "note": "Preseason / regular season not underway (2 teams with games on ESPN) — using 2025 full-season rates only."
+    "note": "Preseason / regular season not underway (0 teams with games on ESPN) — using 2025 full-season rates only."
   },
   "teams": [
     {
