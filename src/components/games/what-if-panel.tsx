@@ -355,48 +355,45 @@ export function WhatIfPanel({
             <div>
               <p className="text-sm font-medium">Presets</p>
               <p className="text-xs text-muted-foreground">
-                One click fills inputs from the published board. Then press{" "}
-                <strong>Run simulation</strong>.
+                Each option shows what it changes. Click one to fill inputs,
+                then press <strong>Run simulation</strong>.
               </p>
             </div>
-            {highlightedPreset && highlightedPreset !== "baseline" && (
-              <Badge variant="secondary" className="font-normal">
-                {WHAT_IF_PRESETS.find((p) => p.id === highlightedPreset)?.label}
-              </Badge>
-            )}
             {!highlightedPreset && dirty && (
               <Badge variant="outline" className="font-normal">
                 Custom
               </Badge>
             )}
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="grid gap-2 sm:grid-cols-2">
             {WHAT_IF_PRESETS.map((preset) => {
               const active = highlightedPreset === preset.id;
               return (
-                <Button
+                <button
                   key={preset.id}
                   type="button"
-                  size="sm"
-                  variant={active ? "default" : "outline"}
                   disabled={isPending}
-                  title={preset.description}
+                  aria-pressed={active}
                   onClick={() => applyPreset(preset)}
-                  className="h-8"
+                  className={cn(
+                    "rounded-lg border px-3 py-2.5 text-left transition-colors",
+                    "focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none",
+                    "disabled:pointer-events-none disabled:opacity-50",
+                    active
+                      ? "border-primary bg-primary/10"
+                      : "border-border bg-background hover:bg-muted/60"
+                  )}
                 >
-                  {preset.shortLabel}
-                </Button>
+                  <span className="block text-sm font-medium leading-tight">
+                    {preset.label}
+                  </span>
+                  <span className="mt-0.5 block text-[11px] leading-snug text-muted-foreground">
+                    {preset.description}
+                  </span>
+                </button>
               );
             })}
           </div>
-          {highlightedPreset && (
-            <p className="text-[11px] text-muted-foreground">
-              {
-                WHAT_IF_PRESETS.find((p) => p.id === highlightedPreset)
-                  ?.description
-              }
-            </p>
-          )}
         </div>
 
         {/* Inputs */}
