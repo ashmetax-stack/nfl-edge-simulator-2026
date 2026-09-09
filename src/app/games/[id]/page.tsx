@@ -201,7 +201,7 @@ export default async function GameDetailPage({ params }: PageProps) {
       {/* Client-side scenario re-sim (Suspense: useSearchParams for share URLs) */}
       <Suspense
         fallback={
-          <Card className="mt-6 border-emerald-500/25">
+          <Card className="mt-6 border-2 border-black ring-0 dark:border-white">
             <CardHeader>
               <CardTitle className="text-lg">What-if simulator</CardTitle>
               <CardDescription>Loading scenario tools…</CardDescription>

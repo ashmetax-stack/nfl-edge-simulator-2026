@@ -67,7 +67,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Check, Copy, Dices, Link2, RotateCcw } from "lucide-react";
+import { Check, ChevronDown, Copy, Dices, Link2, RotateCcw } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const SIM_OPTIONS = [
@@ -172,6 +172,11 @@ export function WhatIfPanel({
   const [copyState, setCopyState] = useState<"idle" | "copied" | "error">(
     "idle"
   );
+  const [advancedOpen, setAdvancedOpen] = useState(false);
+  const [previewPresetId, setPreviewPresetId] = useState<WhatIfPresetId | null>(
+    null
+  );
+  const [cardInView, setCardInView] = useState(false);
 
   const hydratedRef = useRef(false);
   const autoRanRef = useRef(false);
@@ -185,6 +190,10 @@ export function WhatIfPanel({
     [draft, defaults]
   );
   const highlightedPreset = activePresetId ?? matchedPresetId;
+  const describedPresetId = previewPresetId ?? highlightedPreset;
+  const describedPreset = describedPresetId
+    ? WHAT_IF_PRESETS.find((p) => p.id === describedPresetId)
+    : undefined;
 
   const runSimulationWith = useCallback(
     (raw: ScenarioInputs, opts?: { syncUrl?: boolean }) => {
@@ -268,6 +277,17 @@ export function WhatIfPanel({
     }
   }, [defaults, runSimulationWith, searchParams]);
 
+  useEffect(() => {
+    const el = document.getElementById("what-if");
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => setCardInView(Boolean(entry?.isIntersecting)),
+      { threshold: 0 }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
   function updateField<K extends keyof ScenarioInputs>(
     key: K,
     raw: string
@@ -305,6 +325,13 @@ export function WhatIfPanel({
     runSimulationWith(draft, { syncUrl: true });
   }
 
+  function scrollToResults() {
+    document.getElementById("what-if-results")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+
   async function copyShareLink() {
     const source = ranWith && !resultStale ? ranWith : normalizeInputs(draft);
     const origin =
@@ -327,7 +354,59 @@ export function WhatIfPanel({
     }
   }
 
+  function actionButtons(opts?: { stacked?: boolean }) {
+    const stacked = opts?.stacked ?? false;
+    return (
+      <div
+        className={cn(
+          stacked ? "flex w-full flex-col gap-2" : "flex flex-wrap items-center gap-2"
+        )}
+      >
+        <Button
+          type="button"
+          onClick={runSimulation}
+          disabled={isPending}
+          className={cn("gap-1.5", stacked && "w-full")}
+        >
+          <Dices className="size-4" />
+          {isPending ? "Running…" : "Run simulation"}
+        </Button>
+        <div className={cn(stacked ? "grid grid-cols-2 gap-2" : "contents")}>
+          <Button
+            type="button"
+            variant="outline"
+            onClick={copyShareLink}
+            disabled={isPending}
+            className="gap-1.5"
+          >
+            {copyState === "copied" ? (
+              <Check className="size-3.5" />
+            ) : (
+              <Link2 className="size-3.5" />
+            )}
+            {copyState === "copied"
+              ? "Link copied"
+              : copyState === "error"
+                ? "Copy failed"
+                : "Copy link"}
+          </Button>
+          <Button
+            type="button"
+            variant="outline"
+            onClick={resetToBaseline}
+            disabled={isPending || (!dirty && !result)}
+            className="gap-1.5"
+          >
+            <RotateCcw className="size-3.5" />
+            {stacked ? "Reset" : "Reset to baseline"}
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
   return (
+    <>
     <Card
       id="what-if"
       className="mt-6 scroll-mt-20 border-2 border-black ring-0 dark:border-white"
@@ -340,9 +419,14 @@ export function WhatIfPanel({
               What-if simulator
             </CardTitle>
             <CardDescription className="mt-1.5 max-w-xl">
-              Override team rates for this matchup only, then run Monte Carlo.
-              Share a link to reopen the same scenario. Does not change the
-              published board.
+              <span className="sm:hidden">
+                Pick a scenario, then run. Does not change the published board.
+              </span>
+              <span className="hidden sm:inline">
+                Override team rates for this matchup only, then run Monte Carlo.
+                Share a link to reopen the same scenario. Does not change the
+                published board.
+              </span>
             </CardDescription>
           </div>
           <Badge variant="outline" className="font-normal">
@@ -351,13 +435,16 @@ export function WhatIfPanel({
         </div>
       </CardHeader>
 
-      <CardContent className="space-y-6">
+      <CardContent className="space-y-6 max-sm:pb-32">
         {/* Presets */}
         <div className="space-y-2">
           <div className="flex flex-wrap items-end justify-between gap-2">
             <div>
               <p className="text-sm font-medium">Presets</p>
-              <p className="text-xs text-muted-foreground">
+              <p className="text-xs text-muted-foreground sm:hidden">
+                Tap a scenario, then Run.
+              </p>
+              <p className="hidden text-xs text-muted-foreground sm:block">
                 Each option shows what it changes. Click one to fill inputs,
                 then press <strong>Run simulation</strong>.
               </p>
@@ -368,7 +455,42 @@ export function WhatIfPanel({
               </Badge>
             )}
           </div>
-          <div className="grid gap-2 sm:grid-cols-2">
+
+          {/* Mobile: compact chips + one live description */}
+          <div className="flex flex-wrap gap-2 sm:hidden">
+            {WHAT_IF_PRESETS.map((preset) => {
+              const active = highlightedPreset === preset.id;
+              return (
+                <Button
+                  key={preset.id}
+                  type="button"
+                  size="sm"
+                  variant={active ? "default" : "outline"}
+                  disabled={isPending}
+                  aria-pressed={active}
+                  aria-describedby="what-if-preset-hint"
+                  onClick={() => applyPreset(preset)}
+                  onMouseEnter={() => setPreviewPresetId(preset.id)}
+                  onMouseLeave={() => setPreviewPresetId(null)}
+                  onFocus={() => setPreviewPresetId(preset.id)}
+                  onBlur={() => setPreviewPresetId(null)}
+                  className="h-8"
+                >
+                  {preset.label}
+                </Button>
+              );
+            })}
+          </div>
+          <p
+            id="what-if-preset-hint"
+            className="text-[11px] leading-snug text-muted-foreground sm:hidden"
+          >
+            {describedPreset?.description ??
+              "Custom rates — open Adjust rates to edit, or pick a preset."}
+          </p>
+
+          {/* Desktop: labeled cards with always-visible descriptions */}
+          <div className="hidden gap-2 sm:grid sm:grid-cols-2">
             {WHAT_IF_PRESETS.map((preset) => {
               const active = highlightedPreset === preset.id;
               return (
@@ -399,68 +521,90 @@ export function WhatIfPanel({
           </div>
         </div>
 
-        {/* Inputs */}
-        <div className="grid gap-4 sm:grid-cols-2">
-          <TeamRateFields
-            label={`${awayTeam.abbreviation} (away)`}
-            color={awayTeam.primaryColor}
-            offense={draft.awayOffense}
-            defense={draft.awayDefense}
-            baselineOff={defaults.awayOffense}
-            baselineDef={defaults.awayDefense}
-            onOffense={(v) => updateField("awayOffense", v)}
-            onDefense={(v) => updateField("awayDefense", v)}
+        <button
+          type="button"
+          className="flex items-center gap-1 text-sm font-medium sm:hidden"
+          aria-expanded={advancedOpen}
+          onClick={() => setAdvancedOpen((open) => !open)}
+        >
+          <ChevronDown
+            className={cn(
+              "size-4 transition-transform",
+              advancedOpen && "rotate-180"
+            )}
           />
-          <TeamRateFields
-            label={`${homeTeam.abbreviation} (home)`}
-            color={homeTeam.primaryColor}
-            offense={draft.homeOffense}
-            defense={draft.homeDefense}
-            baselineOff={defaults.homeOffense}
-            baselineDef={defaults.homeDefense}
-            onOffense={(v) => updateField("homeOffense", v)}
-            onDefense={(v) => updateField("homeDefense", v)}
-          />
-        </div>
+          Adjust rates
+        </button>
 
-        <div className="grid gap-4 sm:grid-cols-2">
-          <div className="space-y-1.5">
-            <Label htmlFor="hfa">Home-field advantage (pts)</Label>
-            <Input
-              id="hfa"
-              type="number"
-              step="0.1"
-              min={-2}
-              max={10}
-              className="tabular-nums"
-              value={draft.hfa}
-              onChange={(e) => updateField("hfa", e.target.value)}
+        {/* Inputs: always on desktop; behind Adjust rates on mobile */}
+        <div
+          className={cn(
+            "space-y-4",
+            advancedOpen ? "block" : "hidden sm:block"
+          )}
+        >
+          <div className="grid gap-4 sm:grid-cols-2">
+            <TeamRateFields
+              label={`${awayTeam.abbreviation} (away)`}
+              color={awayTeam.primaryColor}
+              offense={draft.awayOffense}
+              defense={draft.awayDefense}
+              baselineOff={defaults.awayOffense}
+              baselineDef={defaults.awayDefense}
+              onOffense={(v) => updateField("awayOffense", v)}
+              onDefense={(v) => updateField("awayDefense", v)}
             />
-            <p className="text-[11px] text-muted-foreground">
-              Baseline board uses {HOME_FIELD_ADVANTAGE.toFixed(1)}
-            </p>
+            <TeamRateFields
+              label={`${homeTeam.abbreviation} (home)`}
+              color={homeTeam.primaryColor}
+              offense={draft.homeOffense}
+              defense={draft.homeDefense}
+              baselineOff={defaults.homeOffense}
+              baselineDef={defaults.homeDefense}
+              onOffense={(v) => updateField("homeOffense", v)}
+              onDefense={(v) => updateField("homeDefense", v)}
+            />
           </div>
-          <div className="space-y-1.5">
-            <Label htmlFor="sim-count">Simulations</Label>
-            <Select
-              value={String(draft.simulations)}
-              onValueChange={(v) => {
-                if (v != null) {
-                  setDraft((d) => ({ ...d, simulations: Number(v) }));
-                }
-              }}
-            >
-              <SelectTrigger id="sim-count" className="w-full">
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                {SIM_OPTIONS.map((o) => (
-                  <SelectItem key={o.value} value={o.value}>
-                    {o.label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="space-y-1.5">
+              <Label htmlFor="hfa">Home-field advantage (pts)</Label>
+              <Input
+                id="hfa"
+                type="number"
+                step="0.1"
+                min={-2}
+                max={10}
+                className="tabular-nums"
+                value={draft.hfa}
+                onChange={(e) => updateField("hfa", e.target.value)}
+              />
+              <p className="text-[11px] text-muted-foreground">
+                Baseline board uses {HOME_FIELD_ADVANTAGE.toFixed(1)}
+              </p>
+            </div>
+            <div className="space-y-1.5">
+              <Label htmlFor="sim-count">Simulations</Label>
+              <Select
+                value={String(draft.simulations)}
+                onValueChange={(v) => {
+                  if (v != null) {
+                    setDraft((d) => ({ ...d, simulations: Number(v) }));
+                  }
+                }}
+              >
+                <SelectTrigger id="sim-count" className="w-full">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  {SIM_OPTIONS.map((o) => (
+                    <SelectItem key={o.value} value={o.value}>
+                      {o.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
           </div>
         </div>
 
@@ -471,44 +615,8 @@ export function WhatIfPanel({
           </p>
         )}
 
-        <div className="flex flex-wrap items-center gap-2">
-          <Button
-            type="button"
-            onClick={runSimulation}
-            disabled={isPending}
-            className="gap-1.5"
-          >
-            <Dices className="size-4" />
-            {isPending ? "Running…" : "Run simulation"}
-          </Button>
-          <Button
-            type="button"
-            variant="outline"
-            onClick={copyShareLink}
-            disabled={isPending}
-            className="gap-1.5"
-          >
-            {copyState === "copied" ? (
-              <Check className="size-3.5" />
-            ) : (
-              <Link2 className="size-3.5" />
-            )}
-            {copyState === "copied"
-              ? "Link copied"
-              : copyState === "error"
-                ? "Copy failed"
-                : "Copy link"}
-          </Button>
-          <Button
-            type="button"
-            variant="outline"
-            onClick={resetToBaseline}
-            disabled={isPending || (!dirty && !result)}
-            className="gap-1.5"
-          >
-            <RotateCcw className="size-3.5" />
-            Reset to baseline
-          </Button>
+        <div className="hidden flex-wrap items-center gap-2 sm:flex">
+          {actionButtons()}
           {resultStale && (
             <span className="text-xs text-amber-700 dark:text-amber-400">
               Inputs changed — run again to refresh results
@@ -516,7 +624,7 @@ export function WhatIfPanel({
           )}
         </div>
 
-        <p className="text-[11px] text-muted-foreground flex items-start gap-1.5">
+        <p className="hidden items-start gap-1.5 text-[11px] text-muted-foreground sm:flex">
           <Copy className="size-3 mt-0.5 shrink-0" />
           <span>
             <strong className="text-foreground font-medium">Copy link</strong>{" "}
@@ -533,7 +641,7 @@ export function WhatIfPanel({
 
         {/* Comparison */}
         {result && ranWith && (
-          <div className="space-y-4">
+          <div id="what-if-results" className="space-y-4 scroll-mt-24">
             <div className="flex flex-wrap items-center gap-2">
               <h3 className="text-sm font-semibold">Baseline vs what-if</h3>
               {resultStale && (
@@ -681,13 +789,35 @@ export function WhatIfPanel({
         )}
 
         {!result && (
-          <p className="text-xs text-muted-foreground">
+          <p className="hidden text-xs text-muted-foreground sm:block">
             Adjust the inputs, then press <strong>Run simulation</strong> to
             compare against the published baseline line.
           </p>
         )}
       </CardContent>
     </Card>
+
+    {cardInView ? (
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t bg-background/95 px-4 py-3 shadow-[0_-8px_24px_rgba(0,0,0,0.08)] backdrop-blur-md sm:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))]">
+        {resultStale ? (
+          <p className="mb-2 text-xs text-amber-700 dark:text-amber-400">
+            Inputs changed — run again to refresh results
+          </p>
+        ) : null}
+        {actionButtons({ stacked: true })}
+        {result ? (
+          <Button
+            type="button"
+            variant="ghost"
+            onClick={scrollToResults}
+            className="mt-2 w-full"
+          >
+            Results
+          </Button>
+        ) : null}
+      </div>
+    ) : null}
+    </>
   );
 }
 
