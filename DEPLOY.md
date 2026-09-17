@@ -85,6 +85,16 @@ Link the project to the GitHub repo when prompted so future `git push` auto-depl
 - Share a scenario, e.g.  
   `https://YOUR_DOMAIN/games/espn-401872656?preset=neutral-site&run=1`
 
+### Web Analytics
+
+After the first deploy with `@vercel/analytics`:
+
+1. Open the Vercel project → **Analytics**
+2. Click **Enable** if you have not already
+3. Redeploy (or wait for the next `git push`) so `/_vercel/insights/*` routes exist
+
+Page views and unique visitors then show in **Analytics**. The package is a no-op in local `next dev`.
+
 ### Weekly updates (after real games start)
 
 On your machine (or later a GitHub Action):
