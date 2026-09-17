@@ -27,6 +27,14 @@ const ROOT = join(__dirname, "..");
 const DATA = join(ROOT, "src", "data");
 
 /** Deterministic PRNG (mulberry32) so re-runs with same inputs stay stable. */
+function localIsoDate(): string {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
 function mulberry32(seed: number) {
   return function () {
     let t = (seed += 0x6d2b79f5);
@@ -88,11 +96,18 @@ function main() {
     }
   }
 
+  const today = localIsoDate();
+  const upcomingWeeks = games
+    .filter((g) => g.date >= today)
+    .map((g) => g.week);
+  const currentWeek =
+    upcomingWeeks.length > 0 ? Math.min(...upcomingWeeks) : 18;
+
   const out: PredictionsFile = {
     meta: {
       season: 2026,
       label: "NFL Edge Simulator 2026",
-      currentWeek: 1,
+      currentWeek,
       totalGames: games.length,
       simulationsPerGame: DEFAULT_SIMULATIONS,
       homeFieldAdvantage: HOME_FIELD_ADVANTAGE,
@@ -107,6 +122,7 @@ function main() {
   writeFileSync(join(DATA, "predictions.json"), JSON.stringify(out, null, 2));
   const secs = ((Date.now() - t0) / 1000).toFixed(1);
   console.log(`Wrote src/data/predictions.json in ${secs}s`);
+  console.log(`  currentWeek: ${currentWeek} (next slate on/after ${today})`);
   console.log("Done. Restart or refresh `npm run dev` if it is already running.");
 }
 
