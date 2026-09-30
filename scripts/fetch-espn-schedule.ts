@@ -153,13 +153,18 @@ async function main() {
       const espnId = String(g.id ?? g.uid?.split(":").pop() ?? "");
 
       games.push({
-        id: espnId ? `espn-${espnId}` : `2026-w${String(week).padStart(2, "0")}-${awayId}-${homeId}`,
+        id: espnId
+          ? `espn-${espnId}`
+          : `2026-w${String(week).padStart(2, "0")}-${awayId}-${homeId}`,
         week,
         date: dateInEt(utc),
         kickoff: formatKickoffEt(utc),
         awayTeamId: awayId,
         homeTeamId: homeId,
         venue: venueLabel,
+        ...(broadcast ? { broadcast } : {}),
+        ...(espnId ? { espnEventId: espnId } : {}),
+        ...(g.name ? { name: g.name } : {}),
       });
     }
     console.log(`${espnGames.length} games`);

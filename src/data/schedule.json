@@ -1,7 +1,6 @@
 {
   "season": 2026,
-  "note": "Official 2026 NFL regular-season schedule sourced from ESPN (cdn.espn.com). Times shown in Eastern.",
-  "source": "https://www.espn.com/nfl/schedule/_/week/1/year/2026/seasontype/2",
+  "note": "Official 2026 NFL regular-season schedule sourced from ESPN (cdn.espn.com). Kickoffs shown in Eastern time.",
   "games": [
     {
       "id": "espn-401872656",
@@ -58,7 +57,7 @@
       "kickoff": "1:00 PM ET",
       "awayTeamId": "buf",
       "homeTeamId": "hou",
-      "venue": "NRG Stadium, Houston, TX",
+      "venue": "Reliant Stadium, Houston, TX",
       "broadcast": "CBS",
       "espnEventId": "401872660",
       "name": "Buffalo Bills at Houston Texans"
@@ -190,7 +189,7 @@
       "kickoff": "8:15 PM ET",
       "awayTeamId": "den",
       "homeTeamId": "kc",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
+      "venue": "Arrowhead Stadium, Kansas City, MO",
       "broadcast": "ESPN/ABC",
       "espnEventId": "401872931",
       "name": "Denver Broncos at Kansas City Chiefs"
@@ -226,7 +225,7 @@
       "kickoff": "1:00 PM ET",
       "awayTeamId": "cin",
       "homeTeamId": "hou",
-      "venue": "NRG Stadium, Houston, TX",
+      "venue": "Reliant Stadium, Houston, TX",
       "broadcast": "CBS",
       "espnEventId": "401872934",
       "name": "Cincinnati Bengals at Houston Texans"
@@ -290,18 +289,6 @@
       "broadcast": "FOX",
       "espnEventId": "401872939",
       "name": "Philadelphia Eagles at Tennessee Titans"
-    },
-    {
-      "id": "espn-401872946",
-      "week": 2,
-      "date": "2026-09-20",
-      "kickoff": "1:00 PM ET",
-      "awayTeamId": "pit",
-      "homeTeamId": "ne",
-      "venue": "Gillette Stadium, Foxborough, MA",
-      "broadcast": "CBS",
-      "espnEventId": "401872946",
-      "name": "Pittsburgh Steelers at New England Patriots"
     },
     {
       "id": "espn-401872940",
@@ -370,10 +357,22 @@
       "kickoff": "8:20 PM ET",
       "awayTeamId": "ind",
       "homeTeamId": "kc",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
+      "venue": "Arrowhead Stadium, Kansas City, MO",
       "broadcast": "NBC",
       "espnEventId": "401872945",
       "name": "Indianapolis Colts at Kansas City Chiefs"
+    },
+    {
+      "id": "espn-401872946",
+      "week": 2,
+      "date": "2026-09-20",
+      "kickoff": "1:00 PM ET",
+      "awayTeamId": "pit",
+      "homeTeamId": "ne",
+      "venue": "Gillette Stadium, Foxborough, MA",
+      "broadcast": "CBS",
+      "espnEventId": "401872946",
+      "name": "Pittsburgh Steelers at New England Patriots"
     },
     {
       "id": "espn-401872947",
@@ -538,7 +537,7 @@
       "kickoff": "4:25 PM ET",
       "awayTeamId": "bal",
       "homeTeamId": "dal",
-      "venue": "Maracan\u00e3 Stadium",
+      "venue": "Maracanã Stadium",
       "broadcast": "CBS",
       "espnEventId": "401872960",
       "name": "Baltimore Ravens at Dallas Cowboys"
@@ -592,6 +591,18 @@
       "name": "Pittsburgh Steelers at Cleveland Browns"
     },
     {
+      "id": "espn-401872965",
+      "week": 4,
+      "date": "2026-10-04",
+      "kickoff": "9:30 AM ET",
+      "awayTeamId": "ind",
+      "homeTeamId": "was",
+      "venue": "Tottenham Hotspur Stadium",
+      "broadcast": "NFL Net",
+      "espnEventId": "401872965",
+      "name": "Indianapolis Colts at Washington Commanders"
+    },
+    {
       "id": "espn-401872966",
       "week": 4,
       "date": "2026-10-04",
@@ -610,7 +621,7 @@
       "kickoff": "1:00 PM ET",
       "awayTeamId": "dal",
       "homeTeamId": "hou",
-      "venue": "NRG Stadium, Houston, TX",
+      "venue": "Reliant Stadium, Houston, TX",
       "broadcast": "FOX",
       "espnEventId": "401872967",
       "name": "Dallas Cowboys at Houston Texans"
@@ -748,18 +759,6 @@
       "name": "Detroit Lions at Carolina Panthers"
     },
     {
-      "id": "espn-401872965",
-      "week": 4,
-      "date": "2026-10-04",
-      "kickoff": "9:30 AM ET",
-      "awayTeamId": "ind",
-      "homeTeamId": "was",
-      "venue": "Tottenham Hotspur Stadium",
-      "broadcast": "NFL Net",
-      "espnEventId": "401872965",
-      "name": "Indianapolis Colts at Washington Commanders"
-    },
-    {
       "id": "espn-401872979",
       "week": 4,
       "date": "2026-10-05",
@@ -782,6 +781,18 @@
       "broadcast": "Prime Video",
       "espnEventId": "401872980",
       "name": "Tampa Bay Buccaneers at Dallas Cowboys"
+    },
+    {
+      "id": "espn-401872981",
+      "week": 5,
+      "date": "2026-10-11",
+      "kickoff": "9:30 AM ET",
+      "awayTeamId": "phi",
+      "homeTeamId": "jax",
+      "venue": "Tottenham Hotspur Stadium",
+      "broadcast": "NFL Net",
+      "espnEventId": "401872981",
+      "name": "Philadelphia Eagles at Jacksonville Jaguars"
     },
     {
       "id": "espn-401872982",
@@ -883,7 +894,7 @@
       "id": "espn-401872990",
       "week": 5,
       "date": "2026-10-11",
-      "kickoff": "4:25 PM ET",
+      "kickoff": "1:00 PM ET",
       "awayTeamId": "chi",
       "homeTeamId": "gb",
       "venue": "Lambeau Field, Green Bay, WI",
@@ -928,18 +939,6 @@
       "name": "Baltimore Ravens at Atlanta Falcons"
     },
     {
-      "id": "espn-401872981",
-      "week": 5,
-      "date": "2026-10-11",
-      "kickoff": "9:30 AM ET",
-      "awayTeamId": "phi",
-      "homeTeamId": "jax",
-      "venue": "Tottenham Hotspur Stadium",
-      "broadcast": "NFL Net",
-      "espnEventId": "401872981",
-      "name": "Philadelphia Eagles at Jacksonville Jaguars"
-    },
-    {
       "id": "espn-401872994",
       "week": 5,
       "date": "2026-10-12",
@@ -962,6 +961,18 @@
       "broadcast": "Prime Video",
       "espnEventId": "401872995",
       "name": "Seattle Seahawks at Denver Broncos"
+    },
+    {
+      "id": "espn-401872996",
+      "week": 6,
+      "date": "2026-10-18",
+      "kickoff": "9:30 AM ET",
+      "awayTeamId": "hou",
+      "homeTeamId": "jax",
+      "venue": "Wembley Stadium",
+      "broadcast": "NFL Net",
+      "espnEventId": "401872996",
+      "name": "Houston Texans at Jacksonville Jaguars"
     },
     {
       "id": "espn-401872997",
@@ -1078,7 +1089,7 @@
       "kickoff": "4:25 PM ET",
       "awayTeamId": "lac",
       "homeTeamId": "kc",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
+      "venue": "Arrowhead Stadium, Kansas City, MO",
       "broadcast": "CBS",
       "espnEventId": "401873006",
       "name": "Los Angeles Chargers at Kansas City Chiefs"
@@ -1094,18 +1105,6 @@
       "broadcast": "NBC",
       "espnEventId": "401873007",
       "name": "Dallas Cowboys at Green Bay Packers"
-    },
-    {
-      "id": "espn-401872996",
-      "week": 6,
-      "date": "2026-10-18",
-      "kickoff": "9:30 AM ET",
-      "awayTeamId": "hou",
-      "homeTeamId": "jax",
-      "venue": "Wembley Stadium",
-      "broadcast": "NFL Net",
-      "espnEventId": "401872996",
-      "name": "Houston Texans at Jacksonville Jaguars"
     },
     {
       "id": "espn-401873008",
@@ -1130,6 +1129,18 @@
       "broadcast": "Prime Video",
       "espnEventId": "401873010",
       "name": "New England Patriots at Chicago Bears"
+    },
+    {
+      "id": "espn-401873011",
+      "week": 7,
+      "date": "2026-10-25",
+      "kickoff": "9:30 AM ET",
+      "awayTeamId": "pit",
+      "homeTeamId": "no",
+      "venue": "Stade de France",
+      "broadcast": "NFL Net",
+      "espnEventId": "401873011",
+      "name": "Pittsburgh Steelers at New Orleans Saints"
     },
     {
       "id": "espn-401873012",
@@ -1186,7 +1197,7 @@
       "kickoff": "1:00 PM ET",
       "awayTeamId": "nyg",
       "homeTeamId": "hou",
-      "venue": "NRG Stadium, Houston, TX",
+      "venue": "Reliant Stadium, Houston, TX",
       "broadcast": "FOX",
       "espnEventId": "401873016",
       "name": "New York Giants at Houston Texans"
@@ -1262,18 +1273,6 @@
       "broadcast": "NBC",
       "espnEventId": "401873022",
       "name": "Kansas City Chiefs at Seattle Seahawks"
-    },
-    {
-      "id": "espn-401873011",
-      "week": 7,
-      "date": "2026-10-25",
-      "kickoff": "9:30 AM ET",
-      "awayTeamId": "pit",
-      "homeTeamId": "no",
-      "venue": "Stade de France",
-      "broadcast": "NFL Net",
-      "espnEventId": "401873011",
-      "name": "Pittsburgh Steelers at New Orleans Saints"
     },
     {
       "id": "espn-401873009",
@@ -1468,6 +1467,18 @@
       "name": "Jacksonville Jaguars at Baltimore Ravens"
     },
     {
+      "id": "espn-401873038",
+      "week": 9,
+      "date": "2026-11-08",
+      "kickoff": "9:30 AM ET",
+      "awayTeamId": "cin",
+      "homeTeamId": "atl",
+      "venue": "Santiago Bernabéu",
+      "broadcast": "NFL Net",
+      "espnEventId": "401873038",
+      "name": "Cincinnati Bengals at Atlanta Falcons"
+    },
+    {
       "id": "espn-401873039",
       "week": 9,
       "date": "2026-11-08",
@@ -1546,7 +1557,7 @@
       "kickoff": "1:00 PM ET",
       "awayTeamId": "nyj",
       "homeTeamId": "kc",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
+      "venue": "Arrowhead Stadium, Kansas City, MO",
       "broadcast": "CBS",
       "espnEventId": "401873045",
       "name": "New York Jets at Kansas City Chiefs"
@@ -1612,18 +1623,6 @@
       "name": "Tampa Bay Buccaneers at Chicago Bears"
     },
     {
-      "id": "espn-401873038",
-      "week": 9,
-      "date": "2026-11-08",
-      "kickoff": "9:30 AM ET",
-      "awayTeamId": "cin",
-      "homeTeamId": "atl",
-      "venue": "Santiago Bernab\u00e9u",
-      "broadcast": "NFL Net",
-      "espnEventId": "401873038",
-      "name": "Cincinnati Bengals at Atlanta Falcons"
-    },
-    {
       "id": "espn-401873051",
       "week": 9,
       "date": "2026-11-09",
@@ -1646,6 +1645,18 @@
       "broadcast": "Prime Video",
       "espnEventId": "401873052",
       "name": "Washington Commanders at New York Giants"
+    },
+    {
+      "id": "espn-401873053",
+      "week": 10,
+      "date": "2026-11-15",
+      "kickoff": "9:30 AM ET",
+      "awayTeamId": "ne",
+      "homeTeamId": "det",
+      "venue": "FC Bayern Munich Stadium",
+      "broadcast": "FOX",
+      "espnEventId": "401873053",
+      "name": "New England Patriots at Detroit Lions"
     },
     {
       "id": "espn-401873054",
@@ -1780,18 +1791,6 @@
       "name": "Pittsburgh Steelers at Cincinnati Bengals"
     },
     {
-      "id": "espn-401873053",
-      "week": 10,
-      "date": "2026-11-15",
-      "kickoff": "9:30 AM ET",
-      "awayTeamId": "ne",
-      "homeTeamId": "det",
-      "venue": "FC Bayern Munich Stadium",
-      "broadcast": "FOX",
-      "espnEventId": "401873053",
-      "name": "New England Patriots at Detroit Lions"
-    },
-    {
       "id": "espn-401873065",
       "week": 10,
       "date": "2026-11-16",
@@ -1810,7 +1809,7 @@
       "kickoff": "8:15 PM ET",
       "awayTeamId": "ind",
       "homeTeamId": "hou",
-      "venue": "NRG Stadium, Houston, TX",
+      "venue": "Reliant Stadium, Houston, TX",
       "broadcast": "Prime Video",
       "espnEventId": "401873066",
       "name": "Indianapolis Colts at Houston Texans"
@@ -1822,7 +1821,7 @@
       "kickoff": "1:00 PM ET",
       "awayTeamId": "ari",
       "homeTeamId": "kc",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
+      "venue": "Arrowhead Stadium, Kansas City, MO",
       "broadcast": "CBS",
       "espnEventId": "401873067",
       "name": "Arizona Cardinals at Kansas City Chiefs"
@@ -1972,18 +1971,6 @@
       "name": "Green Bay Packers at Los Angeles Rams"
     },
     {
-      "id": "espn-401873081",
-      "week": 12,
-      "date": "2026-11-26",
-      "kickoff": "1:00 PM ET",
-      "awayTeamId": "chi",
-      "homeTeamId": "det",
-      "venue": "Ford Field, Detroit, MI",
-      "broadcast": "CBS",
-      "espnEventId": "401873081",
-      "name": "Chicago Bears at Detroit Lions"
-    },
-    {
       "id": "espn-401873080",
       "week": 12,
       "date": "2026-11-26",
@@ -1994,6 +1981,18 @@
       "broadcast": "FOX",
       "espnEventId": "401873080",
       "name": "Philadelphia Eagles at Dallas Cowboys"
+    },
+    {
+      "id": "espn-401873081",
+      "week": 12,
+      "date": "2026-11-26",
+      "kickoff": "1:00 PM ET",
+      "awayTeamId": "chi",
+      "homeTeamId": "det",
+      "venue": "Ford Field, Detroit, MI",
+      "broadcast": "CBS",
+      "espnEventId": "401873081",
+      "name": "Chicago Bears at Detroit Lions"
     },
     {
       "id": "espn-401873082",
@@ -2038,7 +2037,7 @@
       "kickoff": "1:00 PM ET",
       "awayTeamId": "bal",
       "homeTeamId": "hou",
-      "venue": "NRG Stadium, Houston, TX",
+      "venue": "Reliant Stadium, Houston, TX",
       "broadcast": "CBS",
       "espnEventId": "401873085",
       "name": "Baltimore Ravens at Houston Texans"
@@ -2602,7 +2601,7 @@
       "kickoff": "1:00 PM ET",
       "awayTeamId": "jax",
       "homeTeamId": "hou",
-      "venue": "NRG Stadium, Houston, TX",
+      "venue": "Reliant Stadium, Houston, TX",
       "broadcast": "CBS",
       "espnEventId": "401873132",
       "name": "Jacksonville Jaguars at Houston Texans"
@@ -2686,7 +2685,7 @@
       "kickoff": "8:15 PM ET",
       "awayTeamId": "ne",
       "homeTeamId": "kc",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
+      "venue": "Arrowhead Stadium, Kansas City, MO",
       "broadcast": "ESPN/ABC",
       "espnEventId": "401873139",
       "name": "New England Patriots at Kansas City Chiefs"
@@ -2747,7 +2746,6 @@
       "awayTeamId": "car",
       "homeTeamId": "pit",
       "venue": "Acrisure Stadium, Pittsburgh, PA",
-      "broadcast": "",
       "espnEventId": "401873144",
       "name": "Carolina Panthers at Pittsburgh Steelers"
     },
@@ -2759,7 +2757,6 @@
       "awayTeamId": "cin",
       "homeTeamId": "ind",
       "venue": "Lucas Oil Stadium, Indianapolis, IN",
-      "broadcast": "",
       "espnEventId": "401873145",
       "name": "Cincinnati Bengals at Indianapolis Colts"
     },
@@ -2771,7 +2768,6 @@
       "awayTeamId": "tb",
       "homeTeamId": "atl",
       "venue": "Mercedes-Benz Stadium, Atlanta, GA",
-      "broadcast": "",
       "espnEventId": "401873146",
       "name": "Tampa Bay Buccaneers at Atlanta Falcons"
     },
@@ -2783,7 +2779,6 @@
       "awayTeamId": "was",
       "homeTeamId": "min",
       "venue": "U.S. Bank Stadium, Minneapolis, MN",
-      "broadcast": "",
       "espnEventId": "401873147",
       "name": "Washington Commanders at Minnesota Vikings"
     },
@@ -2854,7 +2849,7 @@
       "kickoff": "4:25 PM ET",
       "awayTeamId": "sf",
       "homeTeamId": "kc",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
+      "venue": "Arrowhead Stadium, Kansas City, MO",
       "broadcast": "CBS",
       "espnEventId": "401873153",
       "name": "San Francisco 49ers at Kansas City Chiefs"
@@ -2903,7 +2898,6 @@
       "awayTeamId": "den",
       "homeTeamId": "ne",
       "venue": "Gillette Stadium, Foxborough, MA",
-      "broadcast": "",
       "espnEventId": "401873157",
       "name": "Denver Broncos at New England Patriots"
     },
@@ -2915,7 +2909,6 @@
       "awayTeamId": "kc",
       "homeTeamId": "lac",
       "venue": "SoFi Stadium, Inglewood, CA",
-      "broadcast": "",
       "espnEventId": "401873158",
       "name": "Kansas City Chiefs at Los Angeles Chargers"
     },
@@ -2927,7 +2920,6 @@
       "awayTeamId": "lar",
       "homeTeamId": "tb",
       "venue": "Raymond James Stadium, Tampa, FL",
-      "broadcast": "",
       "espnEventId": "401873159",
       "name": "Los Angeles Rams at Tampa Bay Buccaneers"
     },
@@ -2939,7 +2931,6 @@
       "awayTeamId": "was",
       "homeTeamId": "jax",
       "venue": "EverBank Stadium, Jacksonville, FL",
-      "broadcast": "",
       "espnEventId": "401873160",
       "name": "Washington Commanders at Jacksonville Jaguars"
     },
@@ -3083,7 +3074,6 @@
       "awayTeamId": "atl",
       "homeTeamId": "car",
       "venue": "Bank of America Stadium, Charlotte, NC",
-      "broadcast": "",
       "espnEventId": "401873172",
       "name": "Atlanta Falcons at Carolina Panthers"
     },
@@ -3095,7 +3085,6 @@
       "awayTeamId": "chi",
       "homeTeamId": "min",
       "venue": "U.S. Bank Stadium, Minneapolis, MN",
-      "broadcast": "",
       "espnEventId": "401873173",
       "name": "Chicago Bears at Minnesota Vikings"
     },
@@ -3107,7 +3096,6 @@
       "awayTeamId": "cle",
       "homeTeamId": "cin",
       "venue": "Paycor Stadium, Cincinnati, OH",
-      "broadcast": "",
       "espnEventId": "401873174",
       "name": "Cleveland Browns at Cincinnati Bengals"
     },
@@ -3119,7 +3107,6 @@
       "awayTeamId": "dal",
       "homeTeamId": "was",
       "venue": "Northwest Stadium, Landover, MD",
-      "broadcast": "",
       "espnEventId": "401873175",
       "name": "Dallas Cowboys at Washington Commanders"
     },
@@ -3131,7 +3118,6 @@
       "awayTeamId": "det",
       "homeTeamId": "gb",
       "venue": "Lambeau Field, Green Bay, WI",
-      "broadcast": "",
       "espnEventId": "401873176",
       "name": "Detroit Lions at Green Bay Packers"
     },
@@ -3143,7 +3129,6 @@
       "awayTeamId": "jax",
       "homeTeamId": "ind",
       "venue": "Lucas Oil Stadium, Indianapolis, IN",
-      "broadcast": "",
       "espnEventId": "401873177",
       "name": "Jacksonville Jaguars at Indianapolis Colts"
     },
@@ -3154,8 +3139,7 @@
       "kickoff": "12:00 AM ET",
       "awayTeamId": "lv",
       "homeTeamId": "kc",
-      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, MO",
-      "broadcast": "",
+      "venue": "Arrowhead Stadium, Kansas City, MO",
       "espnEventId": "401873178",
       "name": "Las Vegas Raiders at Kansas City Chiefs"
     },
@@ -3167,7 +3151,6 @@
       "awayTeamId": "lac",
       "homeTeamId": "den",
       "venue": "Empower Field at Mile High, Denver, CO",
-      "broadcast": "",
       "espnEventId": "401873179",
       "name": "Los Angeles Chargers at Denver Broncos"
     },
@@ -3179,7 +3162,6 @@
       "awayTeamId": "mia",
       "homeTeamId": "ne",
       "venue": "Gillette Stadium, Foxborough, MA",
-      "broadcast": "",
       "espnEventId": "401873180",
       "name": "Miami Dolphins at New England Patriots"
     },
@@ -3191,7 +3173,6 @@
       "awayTeamId": "nyj",
       "homeTeamId": "buf",
       "venue": "Highmark Stadium, Orchard Park, NY",
-      "broadcast": "",
       "espnEventId": "401873181",
       "name": "New York Jets at Buffalo Bills"
     },
@@ -3203,7 +3184,6 @@
       "awayTeamId": "phi",
       "homeTeamId": "nyg",
       "venue": "MetLife Stadium, East Rutherford, NJ",
-      "broadcast": "",
       "espnEventId": "401873182",
       "name": "Philadelphia Eagles at New York Giants"
     },
@@ -3215,7 +3195,6 @@
       "awayTeamId": "pit",
       "homeTeamId": "bal",
       "venue": "M&T Bank Stadium, Baltimore, MD",
-      "broadcast": "",
       "espnEventId": "401873183",
       "name": "Pittsburgh Steelers at Baltimore Ravens"
     },
@@ -3227,7 +3206,6 @@
       "awayTeamId": "sf",
       "homeTeamId": "ari",
       "venue": "State Farm Stadium, Glendale, AZ",
-      "broadcast": "",
       "espnEventId": "401873184",
       "name": "San Francisco 49ers at Arizona Cardinals"
     },
@@ -3239,7 +3217,6 @@
       "awayTeamId": "sea",
       "homeTeamId": "lar",
       "venue": "SoFi Stadium, Inglewood, CA",
-      "broadcast": "",
       "espnEventId": "401873185",
       "name": "Seattle Seahawks at Los Angeles Rams"
     },
@@ -3251,7 +3228,6 @@
       "awayTeamId": "tb",
       "homeTeamId": "no",
       "venue": "Caesars Superdome, New Orleans, LA",
-      "broadcast": "",
       "espnEventId": "401873186",
       "name": "Tampa Bay Buccaneers at New Orleans Saints"
     },
@@ -3262,8 +3238,7 @@
       "kickoff": "12:00 AM ET",
       "awayTeamId": "ten",
       "homeTeamId": "hou",
-      "venue": "NRG Stadium, Houston, TX",
-      "broadcast": "",
+      "venue": "Reliant Stadium, Houston, TX",
       "espnEventId": "401873187",
       "name": "Tennessee Titans at Houston Texans"
     }
