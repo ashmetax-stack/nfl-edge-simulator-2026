@@ -30,11 +30,13 @@ import {
   WHAT_IF_PRESETS,
   clampHfa,
   clampRate,
+  getPreset,
   matchPresetId,
   type WhatIfPreset,
   type WhatIfPresetId,
   type WhatIfScenarioInputs,
 } from "@/lib/what-if-presets";
+import { getWhatIfSuggestions } from "@/lib/what-if-suggestions";
 import {
   buildWhatIfQuery,
   buildWhatIfShareUrl,
@@ -67,7 +69,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Check, ChevronDown, Copy, Dices, Link2, RotateCcw } from "lucide-react";
+import {
+  Check,
+  ChevronDown,
+  Copy,
+  Dices,
+  Lightbulb,
+  Link2,
+  RotateCcw,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const SIM_OPTIONS = [
@@ -84,6 +94,7 @@ interface WhatIfPanelProps {
   awayTeam: Team;
   baseline: GamePrediction;
   leagueAvgPpg: number;
+  venue?: string;
 }
 
 function baselineInputs(home: Team, away: Team): ScenarioInputs {
@@ -151,10 +162,21 @@ export function WhatIfPanel({
   awayTeam,
   baseline,
   leagueAvgPpg,
+  venue,
 }: WhatIfPanelProps) {
   const defaults = useMemo(
     () => baselineInputs(homeTeam, awayTeam),
     [homeTeam, awayTeam]
+  );
+  const suggestions = useMemo(
+    () =>
+      getWhatIfSuggestions({
+        home: homeTeam,
+        away: awayTeam,
+        leagueAvgPpg,
+        venue,
+      }),
+    [homeTeam, awayTeam, leagueAvgPpg, venue]
   );
 
   const router = useRouter();
@@ -436,6 +458,49 @@ export function WhatIfPanel({
       </CardHeader>
 
       <CardContent className="space-y-6 max-sm:pb-32">
+        {suggestions.length > 0 ? (
+          <div className="space-y-2 rounded-lg border bg-muted/30 px-3 py-3">
+            <p className="flex items-center gap-1.5 text-sm font-medium">
+              <Lightbulb className="size-4 text-amber-600 dark:text-amber-400" />
+              Suggested for this matchup
+            </p>
+            <p className="text-[11px] text-muted-foreground">
+              Starting points from the ratings — not picks. Apply one, then
+              Run.
+            </p>
+            <ul className="space-y-2">
+              {suggestions.map((s) => {
+                const preset = s.presetId ? getPreset(s.presetId) : undefined;
+                return (
+                  <li
+                    key={s.id}
+                    className="rounded-md border bg-background px-3 py-2"
+                  >
+                    <p className="text-sm font-medium leading-tight">
+                      {s.headline}
+                    </p>
+                    <p className="mt-0.5 text-[11px] leading-snug text-muted-foreground">
+                      {s.reason}
+                    </p>
+                    {preset ? (
+                      <Button
+                        type="button"
+                        size="sm"
+                        variant="outline"
+                        className="mt-2 h-7"
+                        disabled={isPending}
+                        onClick={() => applyPreset(preset)}
+                      >
+                        Apply {preset.label}
+                      </Button>
+                    ) : null}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ) : null}
+
         {/* Presets */}
         <div className="space-y-2">
           <div className="flex flex-wrap items-end justify-between gap-2">

@@ -215,6 +215,7 @@ export default async function GameDetailPage({ params }: PageProps) {
           awayTeam={awayTeam}
           baseline={p}
           leagueAvgPpg={leagueAvgPpg}
+          venue={game.venue}
         />
       </Suspense>
 
