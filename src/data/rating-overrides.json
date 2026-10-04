@@ -1,0 +1,9 @@
+{
+  "note": "Applied after the ESPN blend by npm run fetch-stats. Survives weekly updates. League average is computed before these deltas.",
+  "teams": {
+    "nyg": {
+      "offensePpgDelta": -4,
+      "reason": "Jaxson Dart out for the season (backup QB). −4 offense PPG after blend."
+    }
+  }
+}

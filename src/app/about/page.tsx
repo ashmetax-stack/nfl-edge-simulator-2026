@@ -77,8 +77,14 @@ rate   = weight * currentYTD + (1 - weight) * priorSeason`}
         </pre>
         <p className="text-sm text-muted-foreground leading-relaxed">
           Before Week 1, the board is pure prior-season rates. By ~8 games, the
-          model uses full current-season averages. League average PPG (
-          {meta.leagueAvgPpg}) normalizes matchups. Weekly ops:{" "}
+          model uses full current-season averages. Documented injury or
+          situation adjustments in{" "}
+          <code className="rounded bg-muted px-1.5 py-0.5 text-xs">
+            rating-overrides.json
+          </code>{" "}
+          are applied after that blend (currently: Giants offense −4 PPG with
+          Jaxson Dart out). League average PPG ({meta.leagueAvgPpg}) is
+          computed before those deltas. Weekly ops:{" "}
           <code className="rounded bg-muted px-1.5 py-0.5 text-xs">
             npm run update-week
           </code>

@@ -40,6 +40,20 @@ export interface Team {
   gamesPlayed?: number;
   /** Weight toward current season in [0, 1]. */
   blendWeight?: number;
+  /** Human-readable reason when a published rating override is applied. */
+  ratingNote?: string;
+}
+
+/** Injury / situation deltas applied after the ESPN blend. */
+export interface RatingOverride {
+  offensePpgDelta?: number;
+  defensePapgDelta?: number;
+  reason: string;
+}
+
+export interface RatingOverridesFile {
+  note: string;
+  teams: Record<string, RatingOverride>;
 }
 
 /** Provenance for team ratings written by npm run fetch-stats. */

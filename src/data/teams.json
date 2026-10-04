@@ -438,14 +438,15 @@
       "division": "East",
       "primaryColor": "#0B2265",
       "secondaryColor": "#A71930",
-      "offensePpg": 19.8,
+      "offensePpg": 15.8,
       "defensePapg": 23,
       "priorOffensePpg": 22.4,
       "priorDefensePapg": 25.8,
       "currentOffensePpg": 15.3,
       "currentDefensePapg": 18.3,
       "gamesPlayed": 3,
-      "blendWeight": 0.38
+      "blendWeight": 0.38,
+      "ratingNote": "Jaxson Dart out for the season (backup QB). −4 offense PPG after blend."
     },
     {
       "id": "nyj",

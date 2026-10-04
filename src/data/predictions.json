@@ -7,7 +7,7 @@
     "simulationsPerGame": 10000,
     "homeFieldAdvantage": 2.4,
     "leagueAvgPpg": 23,
-    "generatedAt": "2026-10-04T14:21:57.315Z",
+    "generatedAt": "2026-10-04T14:30:20.041Z",
     "disclaimer": "For entertainment and educational purposes only. Not gambling advice."
   },
   "predictions": [
@@ -86,7 +86,7 @@
         }
       ],
       "interpretation": "Home team SEA is a solid favorite (87% win probability, 7.0-point edge over NE).",
-      "generatedAt": "2026-10-04T14:21:55.271Z"
+      "generatedAt": "2026-10-04T14:30:17.961Z"
     },
     {
       "gameId": "espn-401872657",
@@ -163,7 +163,7 @@
         }
       ],
       "interpretation": "Away team SF is a slight favorite (49% win probability, 0.0-point edge over LAR).",
-      "generatedAt": "2026-10-04T14:21:55.288Z"
+      "generatedAt": "2026-10-04T14:30:17.978Z"
     },
     {
       "gameId": "espn-401872658",
@@ -240,7 +240,7 @@
         }
       ],
       "interpretation": "Home team PIT is a moderate favorite (78% win probability, 5.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:55.299Z"
+      "generatedAt": "2026-10-04T14:30:17.990Z"
     },
     {
       "gameId": "espn-401872659",
@@ -317,7 +317,7 @@
         }
       ],
       "interpretation": "Away team BAL is a slight favorite (57% win probability, 1.0-point edge over IND).",
-      "generatedAt": "2026-10-04T14:21:55.315Z"
+      "generatedAt": "2026-10-04T14:30:18.007Z"
     },
     {
       "gameId": "espn-401872660",
@@ -394,7 +394,7 @@
         }
       ],
       "interpretation": "Away team BUF is a mild favorite (64% win probability, 3.0-point edge over HOU).",
-      "generatedAt": "2026-10-04T14:21:55.329Z"
+      "generatedAt": "2026-10-04T14:30:18.020Z"
     },
     {
       "gameId": "espn-401872661",
@@ -471,7 +471,7 @@
         }
       ],
       "interpretation": "Away team CHI is a moderate favorite (75% win probability, 5.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:55.344Z"
+      "generatedAt": "2026-10-04T14:30:18.034Z"
     },
     {
       "gameId": "espn-401872922",
@@ -548,7 +548,7 @@
         }
       ],
       "interpretation": "Home team JAX is a heavy favorite (100% win probability, 17.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:55.356Z"
+      "generatedAt": "2026-10-04T14:30:18.047Z"
     },
     {
       "gameId": "espn-401872923",
@@ -625,7 +625,7 @@
         }
       ],
       "interpretation": "Home team DET is a solid favorite (86% win probability, 8.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:55.370Z"
+      "generatedAt": "2026-10-04T14:30:18.062Z"
     },
     {
       "gameId": "espn-401872924",
@@ -702,7 +702,7 @@
         }
       ],
       "interpretation": "Away team NYJ is a slight favorite (56% win probability, 1.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:55.382Z"
+      "generatedAt": "2026-10-04T14:30:18.075Z"
     },
     {
       "gameId": "espn-401872925",
@@ -779,7 +779,7 @@
         }
       ],
       "interpretation": "Home team CIN is a moderate favorite (77% win probability, 5.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:55.391Z"
+      "generatedAt": "2026-10-04T14:30:18.084Z"
     },
     {
       "gameId": "espn-401872926",
@@ -856,7 +856,7 @@
         }
       ],
       "interpretation": "Home team LAC is a moderate favorite (79% win probability, 6.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:55.405Z"
+      "generatedAt": "2026-10-04T14:30:18.097Z"
     },
     {
       "gameId": "espn-401872927",
@@ -933,7 +933,7 @@
         }
       ],
       "interpretation": "Home team MIN is a solid favorite (93% win probability, 9.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:55.415Z"
+      "generatedAt": "2026-10-04T14:30:18.106Z"
     },
     {
       "gameId": "espn-401872928",
@@ -1010,7 +1010,7 @@
         }
       ],
       "interpretation": "Home team LV is a solid favorite (90% win probability, 8.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:55.422Z"
+      "generatedAt": "2026-10-04T14:30:18.113Z"
     },
     {
       "gameId": "espn-401872929",
@@ -1087,84 +1087,84 @@
         }
       ],
       "interpretation": "Home team PHI is a solid favorite (86% win probability, 7.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:55.430Z"
+      "generatedAt": "2026-10-04T14:30:18.122Z"
     },
     {
       "gameId": "espn-401872930",
-      "predictedHomeScore": 27.3,
-      "predictedAwayScore": 28.4,
-      "predictedSpread": 1,
-      "predictedTotal": 55.6,
-      "homeWinProb": 0.4348,
-      "awayWinProb": 0.5653,
-      "tieProb": 0.0495,
-      "lambdaHome": 27.37,
+      "predictedHomeScore": 22.2,
+      "predictedAwayScore": 28.3,
+      "predictedSpread": 6,
+      "predictedTotal": 50.5,
+      "homeWinProb": 0.193,
+      "awayWinProb": 0.8071,
+      "tieProb": 0.0377,
+      "lambdaHome": 22.32,
       "lambdaAway": 28.3,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 26,
-          "awayScore": 27,
-          "count": 82,
-          "pct": 0.8200000000000001
-        },
-        {
-          "homeScore": 27,
-          "awayScore": 28,
-          "count": 75,
-          "pct": 0.75
-        },
-        {
-          "homeScore": 26,
+          "homeScore": 23,
           "awayScore": 29,
+          "count": 80,
+          "pct": 0.8
+        },
+        {
+          "homeScore": 23,
+          "awayScore": 26,
+          "count": 76,
+          "pct": 0.76
+        },
+        {
+          "homeScore": 22,
+          "awayScore": 26,
+          "count": 74,
+          "pct": 0.74
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 25,
+          "count": 71,
+          "pct": 0.7100000000000001
+        },
+        {
+          "homeScore": 22,
+          "awayScore": 30,
+          "count": 69,
+          "pct": 0.69
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 27,
+          "count": 68,
+          "pct": 0.6799999999999999
+        },
+        {
+          "homeScore": 19,
+          "awayScore": 27,
+          "count": 68,
+          "pct": 0.6799999999999999
+        },
+        {
+          "homeScore": 21,
+          "awayScore": 28,
+          "count": 68,
+          "pct": 0.6799999999999999
+        },
+        {
+          "homeScore": 24,
+          "awayScore": 28,
+          "count": 67,
+          "pct": 0.67
+        },
+        {
+          "homeScore": 23,
+          "awayScore": 27,
           "count": 66,
           "pct": 0.66
-        },
-        {
-          "homeScore": 26,
-          "awayScore": 28,
-          "count": 62,
-          "pct": 0.62
-        },
-        {
-          "homeScore": 26,
-          "awayScore": 30,
-          "count": 59,
-          "pct": 0.59
-        },
-        {
-          "homeScore": 24,
-          "awayScore": 29,
-          "count": 59,
-          "pct": 0.59
-        },
-        {
-          "homeScore": 27,
-          "awayScore": 29,
-          "count": 57,
-          "pct": 0.5700000000000001
-        },
-        {
-          "homeScore": 24,
-          "awayScore": 28,
-          "count": 57,
-          "pct": 0.5700000000000001
-        },
-        {
-          "homeScore": 25,
-          "awayScore": 27,
-          "count": 55,
-          "pct": 0.5499999999999999
-        },
-        {
-          "homeScore": 27,
-          "awayScore": 30,
-          "count": 55,
-          "pct": 0.5499999999999999
         }
       ],
-      "interpretation": "Away team DAL is a slight favorite (57% win probability, 1.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:55.439Z"
+      "interpretation": "Away team DAL is a moderate favorite (81% win probability, 6.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:18.130Z"
     },
     {
       "gameId": "espn-401872931",
@@ -1241,7 +1241,7 @@
         }
       ],
       "interpretation": "Home team KC is a moderate favorite (82% win probability, 6.0-point edge over DEN).",
-      "generatedAt": "2026-10-04T14:21:55.446Z"
+      "generatedAt": "2026-10-04T14:30:18.136Z"
     },
     {
       "gameId": "espn-401872932",
@@ -1318,7 +1318,7 @@
         }
       ],
       "interpretation": "Home team BUF is a solid favorite (85% win probability, 8.0-point edge over DET).",
-      "generatedAt": "2026-10-04T14:21:55.455Z"
+      "generatedAt": "2026-10-04T14:30:18.146Z"
     },
     {
       "gameId": "espn-401872933",
@@ -1395,7 +1395,7 @@
         }
       ],
       "interpretation": "Away team CAR is a slight favorite (49% win probability, 0.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:55.463Z"
+      "generatedAt": "2026-10-04T14:30:18.153Z"
     },
     {
       "gameId": "espn-401872934",
@@ -1472,7 +1472,7 @@
         }
       ],
       "interpretation": "Home team HOU is a moderate favorite (75% win probability, 5.0-point edge over CIN).",
-      "generatedAt": "2026-10-04T14:21:55.470Z"
+      "generatedAt": "2026-10-04T14:30:18.159Z"
     },
     {
       "gameId": "espn-401872935",
@@ -1549,7 +1549,7 @@
         }
       ],
       "interpretation": "Home team TB is a moderate favorite (74% win probability, 4.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:55.477Z"
+      "generatedAt": "2026-10-04T14:30:18.166Z"
     },
     {
       "gameId": "espn-401872936",
@@ -1626,7 +1626,7 @@
         }
       ],
       "interpretation": "Away team GB is a slight favorite (58% win probability, 1.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:55.483Z"
+      "generatedAt": "2026-10-04T14:30:18.173Z"
     },
     {
       "gameId": "espn-401872937",
@@ -1703,7 +1703,7 @@
         }
       ],
       "interpretation": "Home team CHI is a mild favorite (65% win probability, 3.0-point edge over MIN).",
-      "generatedAt": "2026-10-04T14:21:55.490Z"
+      "generatedAt": "2026-10-04T14:30:18.180Z"
     },
     {
       "gameId": "espn-401872938",
@@ -1780,7 +1780,7 @@
         }
       ],
       "interpretation": "Home team BAL is a solid favorite (87% win probability, 9.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:55.497Z"
+      "generatedAt": "2026-10-04T14:30:18.187Z"
     },
     {
       "gameId": "espn-401872939",
@@ -1857,7 +1857,7 @@
         }
       ],
       "interpretation": "Away team PHI is a solid favorite (85% win probability, 7.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:55.503Z"
+      "generatedAt": "2026-10-04T14:30:18.194Z"
     },
     {
       "gameId": "espn-401872940",
@@ -1934,7 +1934,7 @@
         }
       ],
       "interpretation": "Away team JAX is a moderate favorite (80% win probability, 5.0-point edge over DEN).",
-      "generatedAt": "2026-10-04T14:21:55.509Z"
+      "generatedAt": "2026-10-04T14:30:18.200Z"
     },
     {
       "gameId": "espn-401872941",
@@ -2011,7 +2011,7 @@
         }
       ],
       "interpretation": "Home team LAC is a mild favorite (62% win probability, 2.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:55.515Z"
+      "generatedAt": "2026-10-04T14:30:18.206Z"
     },
     {
       "gameId": "espn-401872942",
@@ -2088,7 +2088,7 @@
         }
       ],
       "interpretation": "Home team SF is a heavy favorite (100% win probability, 20.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:55.521Z"
+      "generatedAt": "2026-10-04T14:30:18.214Z"
     },
     {
       "gameId": "espn-401872943",
@@ -2165,7 +2165,7 @@
         }
       ],
       "interpretation": "Away team SEA is a heavy favorite (98% win probability, 15.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:55.528Z"
+      "generatedAt": "2026-10-04T14:30:18.221Z"
     },
     {
       "gameId": "espn-401872944",
@@ -2242,7 +2242,7 @@
         }
       ],
       "interpretation": "Home team DAL is a solid favorite (86% win probability, 9.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:55.536Z"
+      "generatedAt": "2026-10-04T14:30:18.229Z"
     },
     {
       "gameId": "espn-401872945",
@@ -2319,7 +2319,7 @@
         }
       ],
       "interpretation": "Home team KC is a heavy favorite (92% win probability, 10.0-point edge over IND).",
-      "generatedAt": "2026-10-04T14:21:55.543Z"
+      "generatedAt": "2026-10-04T14:30:18.236Z"
     },
     {
       "gameId": "espn-401872946",
@@ -2396,84 +2396,84 @@
         }
       ],
       "interpretation": "Home team NE is a solid favorite (88% win probability, 7.0-point edge over PIT).",
-      "generatedAt": "2026-10-04T14:21:55.549Z"
+      "generatedAt": "2026-10-04T14:30:18.243Z"
     },
     {
       "gameId": "espn-401872947",
       "predictedHomeScore": 29.1,
-      "predictedAwayScore": 17.7,
-      "predictedSpread": -11,
-      "predictedTotal": 46.8,
-      "homeWinProb": 0.9532,
-      "awayWinProb": 0.0468,
-      "tieProb": 0.0144,
+      "predictedAwayScore": 14.1,
+      "predictedSpread": -15,
+      "predictedTotal": 43.2,
+      "homeWinProb": 0.9891,
+      "awayWinProb": 0.011,
+      "tieProb": 0.0029,
       "lambdaHome": 29.1,
-      "lambdaAway": 17.73,
+      "lambdaAway": 14.15,
       "simulations": 10000,
       "sampleOutcomes": [
         {
+          "homeScore": 30,
+          "awayScore": 12,
+          "count": 94,
+          "pct": 0.9400000000000001
+        },
+        {
           "homeScore": 29,
-          "awayScore": 18,
-          "count": 81,
-          "pct": 0.8099999999999999
+          "awayScore": 14,
+          "count": 90,
+          "pct": 0.8999999999999999
         },
         {
           "homeScore": 28,
-          "awayScore": 18,
-          "count": 80,
-          "pct": 0.8
+          "awayScore": 12,
+          "count": 88,
+          "pct": 0.88
         },
         {
-          "homeScore": 28,
+          "homeScore": 29,
           "awayScore": 15,
+          "count": 82,
+          "pct": 0.8200000000000001
+        },
+        {
+          "homeScore": 30,
+          "awayScore": 13,
+          "count": 82,
+          "pct": 0.8200000000000001
+        },
+        {
+          "homeScore": 27,
+          "awayScore": 14,
           "count": 80,
           "pct": 0.8
+        },
+        {
+          "homeScore": 30,
+          "awayScore": 14,
+          "count": 78,
+          "pct": 0.7799999999999999
+        },
+        {
+          "homeScore": 28,
+          "awayScore": 14,
+          "count": 78,
+          "pct": 0.7799999999999999
         },
         {
           "homeScore": 31,
-          "awayScore": 18,
+          "awayScore": 14,
           "count": 77,
           "pct": 0.77
         },
         {
-          "homeScore": 27,
-          "awayScore": 17,
-          "count": 74,
-          "pct": 0.74
-        },
-        {
-          "homeScore": 31,
-          "awayScore": 16,
-          "count": 74,
-          "pct": 0.74
-        },
-        {
-          "homeScore": 28,
-          "awayScore": 17,
-          "count": 73,
-          "pct": 0.73
-        },
-        {
-          "homeScore": 29,
-          "awayScore": 16,
-          "count": 72,
-          "pct": 0.72
-        },
-        {
-          "homeScore": 31,
-          "awayScore": 17,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 29,
-          "awayScore": 19,
-          "count": 71,
-          "pct": 0.7100000000000001
+          "homeScore": 26,
+          "awayScore": 14,
+          "count": 77,
+          "pct": 0.77
         }
       ],
-      "interpretation": "Home team LAR is a heavy favorite (95% win probability, 11.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:55.555Z"
+      "interpretation": "Home team LAR is a heavy favorite (99% win probability, 15.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:18.250Z"
     },
     {
       "gameId": "espn-401872948",
@@ -2550,7 +2550,7 @@
         }
       ],
       "interpretation": "Home team GB is a mild favorite (68% win probability, 3.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:55.562Z"
+      "generatedAt": "2026-10-04T14:30:18.257Z"
     },
     {
       "gameId": "espn-401872949",
@@ -2627,7 +2627,7 @@
         }
       ],
       "interpretation": "Away team CAR is a slight favorite (56% win probability, 1.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:55.568Z"
+      "generatedAt": "2026-10-04T14:30:18.264Z"
     },
     {
       "gameId": "espn-401872950",
@@ -2704,7 +2704,7 @@
         }
       ],
       "interpretation": "Home team PIT is a mild favorite (62% win probability, 2.0-point edge over CIN).",
-      "generatedAt": "2026-10-04T14:21:55.575Z"
+      "generatedAt": "2026-10-04T14:30:18.271Z"
     },
     {
       "gameId": "espn-401872951",
@@ -2781,7 +2781,7 @@
         }
       ],
       "interpretation": "Home team IND is a slight favorite (53% win probability, 1.0-point edge over HOU).",
-      "generatedAt": "2026-10-04T14:21:55.583Z"
+      "generatedAt": "2026-10-04T14:30:18.279Z"
     },
     {
       "gameId": "espn-401872952",
@@ -2858,7 +2858,7 @@
         }
       ],
       "interpretation": "Away team KC is a heavy favorite (96% win probability, 11.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:55.589Z"
+      "generatedAt": "2026-10-04T14:30:18.286Z"
     },
     {
       "gameId": "espn-401872953",
@@ -2935,7 +2935,7 @@
         }
       ],
       "interpretation": "Home team BUF is a heavy favorite (96% win probability, 12.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:55.596Z"
+      "generatedAt": "2026-10-04T14:30:18.294Z"
     },
     {
       "gameId": "espn-401872954",
@@ -3012,7 +3012,7 @@
         }
       ],
       "interpretation": "Home team DET is a heavy favorite (96% win probability, 13.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:55.604Z"
+      "generatedAt": "2026-10-04T14:30:18.302Z"
     },
     {
       "gameId": "espn-401872955",
@@ -3089,84 +3089,84 @@
         }
       ],
       "interpretation": "Away team SEA is a heavy favorite (97% win probability, 14.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:55.610Z"
+      "generatedAt": "2026-10-04T14:30:18.309Z"
     },
     {
       "gameId": "espn-401872956",
-      "predictedHomeScore": 23.8,
+      "predictedHomeScore": 19.5,
       "predictedAwayScore": 15.1,
-      "predictedSpread": -9,
-      "predictedTotal": 38.9,
-      "homeWinProb": 0.9165,
-      "awayWinProb": 0.0835,
-      "tieProb": 0.024,
-      "lambdaHome": 23.84,
+      "predictedSpread": -4,
+      "predictedTotal": 34.6,
+      "homeWinProb": 0.7706,
+      "awayWinProb": 0.2294,
+      "tieProb": 0.0469,
+      "lambdaHome": 19.51,
       "lambdaAway": 15.1,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 24,
+          "homeScore": 18,
           "awayScore": 15,
-          "count": 96,
-          "pct": 0.96
+          "count": 102,
+          "pct": 1.02
         },
         {
-          "homeScore": 24,
-          "awayScore": 13,
-          "count": 92,
-          "pct": 0.9199999999999999
-        },
-        {
-          "homeScore": 24,
-          "awayScore": 14,
-          "count": 92,
-          "pct": 0.9199999999999999
-        },
-        {
-          "homeScore": 24,
+          "homeScore": 18,
           "awayScore": 16,
-          "count": 86,
-          "pct": 0.86
-        },
-        {
-          "homeScore": 23,
-          "awayScore": 14,
-          "count": 86,
-          "pct": 0.86
-        },
-        {
-          "homeScore": 25,
-          "awayScore": 16,
-          "count": 85,
-          "pct": 0.8500000000000001
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 15,
-          "count": 85,
-          "pct": 0.8500000000000001
-        },
-        {
-          "homeScore": 23,
-          "awayScore": 15,
-          "count": 82,
-          "pct": 0.8200000000000001
+          "count": 101,
+          "pct": 1.01
         },
         {
           "homeScore": 21,
-          "awayScore": 14,
-          "count": 80,
-          "pct": 0.8
+          "awayScore": 15,
+          "count": 100,
+          "pct": 1
         },
         {
-          "homeScore": 23,
-          "awayScore": 16,
-          "count": 78,
-          "pct": 0.7799999999999999
+          "homeScore": 19,
+          "awayScore": 14,
+          "count": 98,
+          "pct": 0.98
+        },
+        {
+          "homeScore": 18,
+          "awayScore": 14,
+          "count": 97,
+          "pct": 0.97
+        },
+        {
+          "homeScore": 19,
+          "awayScore": 15,
+          "count": 95,
+          "pct": 0.95
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 15,
+          "count": 92,
+          "pct": 0.9199999999999999
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 14,
+          "count": 91,
+          "pct": 0.91
+        },
+        {
+          "homeScore": 19,
+          "awayScore": 13,
+          "count": 90,
+          "pct": 0.8999999999999999
+        },
+        {
+          "homeScore": 16,
+          "awayScore": 15,
+          "count": 89,
+          "pct": 0.89
         }
       ],
-      "interpretation": "Home team NYG is a solid favorite (92% win probability, 9.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:55.616Z"
+      "interpretation": "Home team NYG is a moderate favorite (77% win probability, 4.0-point edge over TEN).",
+      "generatedAt": "2026-10-04T14:30:18.316Z"
     },
     {
       "gameId": "espn-401872957",
@@ -3243,7 +3243,7 @@
         }
       ],
       "interpretation": "Home team JAX is a solid favorite (88% win probability, 8.0-point edge over NE).",
-      "generatedAt": "2026-10-04T14:21:55.622Z"
+      "generatedAt": "2026-10-04T14:30:18.323Z"
     },
     {
       "gameId": "espn-401872958",
@@ -3320,7 +3320,7 @@
         }
       ],
       "interpretation": "Home team SF is a heavy favorite (100% win probability, 19.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:55.630Z"
+      "generatedAt": "2026-10-04T14:30:18.330Z"
     },
     {
       "gameId": "espn-401872959",
@@ -3397,7 +3397,7 @@
         }
       ],
       "interpretation": "Away team MIN is a moderate favorite (76% win probability, 5.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:55.636Z"
+      "generatedAt": "2026-10-04T14:30:18.337Z"
     },
     {
       "gameId": "espn-401872960",
@@ -3474,7 +3474,7 @@
         }
       ],
       "interpretation": "Away team BAL is a mild favorite (58% win probability, 2.0-point edge over DAL).",
-      "generatedAt": "2026-10-04T14:21:55.644Z"
+      "generatedAt": "2026-10-04T14:30:18.346Z"
     },
     {
       "gameId": "espn-401872961",
@@ -3551,7 +3551,7 @@
         }
       ],
       "interpretation": "Home team NO is a mild favorite (63% win probability, 2.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:55.651Z"
+      "generatedAt": "2026-10-04T14:30:18.353Z"
     },
     {
       "gameId": "espn-401872962",
@@ -3628,7 +3628,7 @@
         }
       ],
       "interpretation": "Away team LAR is a slight favorite (57% win probability, 1.0-point edge over DEN).",
-      "generatedAt": "2026-10-04T14:21:55.657Z"
+      "generatedAt": "2026-10-04T14:30:18.360Z"
     },
     {
       "gameId": "espn-401872963",
@@ -3705,7 +3705,7 @@
         }
       ],
       "interpretation": "Home team CHI is a solid favorite (85% win probability, 7.0-point edge over PHI).",
-      "generatedAt": "2026-10-04T14:21:55.663Z"
+      "generatedAt": "2026-10-04T14:30:18.368Z"
     },
     {
       "gameId": "espn-401872964",
@@ -3782,7 +3782,7 @@
         }
       ],
       "interpretation": "Away team PIT is a slight favorite (56% win probability, 1.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:55.670Z"
+      "generatedAt": "2026-10-04T14:30:18.374Z"
     },
     {
       "gameId": "espn-401872965",
@@ -3859,84 +3859,84 @@
         }
       ],
       "interpretation": "Away team IND is a mild favorite (68% win probability, 3.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:55.677Z"
+      "generatedAt": "2026-10-04T14:30:18.383Z"
     },
     {
       "gameId": "espn-401872966",
-      "predictedHomeScore": 26.6,
+      "predictedHomeScore": 21.7,
       "predictedAwayScore": 20.9,
-      "predictedSpread": -6,
-      "predictedTotal": 47.5,
-      "homeWinProb": 0.7908,
-      "awayWinProb": 0.2092,
-      "tieProb": 0.04,
-      "lambdaHome": 26.59,
+      "predictedSpread": -1,
+      "predictedTotal": 42.6,
+      "homeWinProb": 0.5569,
+      "awayWinProb": 0.4431,
+      "tieProb": 0.0615,
+      "lambdaHome": 21.7,
       "lambdaAway": 20.9,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 25,
+          "homeScore": 23,
           "awayScore": 20,
-          "count": 88,
-          "pct": 0.88
+          "count": 87,
+          "pct": 0.8699999999999999
         },
         {
-          "homeScore": 28,
+          "homeScore": 19,
+          "awayScore": 20,
+          "count": 84,
+          "pct": 0.84
+        },
+        {
+          "homeScore": 21,
+          "awayScore": 22,
+          "count": 83,
+          "pct": 0.83
+        },
+        {
+          "homeScore": 24,
+          "awayScore": 21,
+          "count": 83,
+          "pct": 0.83
+        },
+        {
+          "homeScore": 21,
           "awayScore": 21,
           "count": 82,
           "pct": 0.8200000000000001
         },
         {
-          "homeScore": 25,
+          "homeScore": 20,
           "awayScore": 21,
-          "count": 72,
-          "pct": 0.72
+          "count": 78,
+          "pct": 0.7799999999999999
         },
         {
-          "homeScore": 27,
-          "awayScore": 21,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 24,
+          "homeScore": 19,
           "awayScore": 22,
-          "count": 69,
-          "pct": 0.69
+          "count": 76,
+          "pct": 0.76
         },
         {
-          "homeScore": 24,
+          "homeScore": 23,
           "awayScore": 19,
-          "count": 68,
-          "pct": 0.6799999999999999
+          "count": 75,
+          "pct": 0.75
         },
         {
           "homeScore": 24,
-          "awayScore": 21,
-          "count": 67,
-          "pct": 0.67
-        },
-        {
-          "homeScore": 29,
           "awayScore": 20,
-          "count": 67,
-          "pct": 0.67
+          "count": 75,
+          "pct": 0.75
         },
         {
-          "homeScore": 25,
-          "awayScore": 19,
-          "count": 67,
-          "pct": 0.67
-        },
-        {
-          "homeScore": 27,
-          "awayScore": 19,
-          "count": 66,
-          "pct": 0.66
+          "homeScore": 21,
+          "awayScore": 18,
+          "count": 74,
+          "pct": 0.74
         }
       ],
-      "interpretation": "Home team NYG is a moderate favorite (79% win probability, 6.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:55.684Z"
+      "interpretation": "Home team NYG is a slight favorite (56% win probability, 1.0-point edge over ARI).",
+      "generatedAt": "2026-10-04T14:30:18.390Z"
     },
     {
       "gameId": "espn-401872967",
@@ -4013,7 +4013,7 @@
         }
       ],
       "interpretation": "Home team HOU is a moderate favorite (74% win probability, 5.0-point edge over DAL).",
-      "generatedAt": "2026-10-04T14:21:55.690Z"
+      "generatedAt": "2026-10-04T14:30:18.398Z"
     },
     {
       "gameId": "espn-401872968",
@@ -4090,7 +4090,7 @@
         }
       ],
       "interpretation": "Home team TB is a mild favorite (63% win probability, 2.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:55.697Z"
+      "generatedAt": "2026-10-04T14:30:18.404Z"
     },
     {
       "gameId": "espn-401872969",
@@ -4167,7 +4167,7 @@
         }
       ],
       "interpretation": "Away team JAX is a heavy favorite (93% win probability, 11.0-point edge over CIN).",
-      "generatedAt": "2026-10-04T14:21:55.704Z"
+      "generatedAt": "2026-10-04T14:30:18.412Z"
     },
     {
       "gameId": "espn-401872970",
@@ -4244,7 +4244,7 @@
         }
       ],
       "interpretation": "Away team LAR is a mild favorite (67% win probability, 3.0-point edge over PHI).",
-      "generatedAt": "2026-10-04T14:21:55.710Z"
+      "generatedAt": "2026-10-04T14:30:18.420Z"
     },
     {
       "gameId": "espn-401872971",
@@ -4321,7 +4321,7 @@
         }
       ],
       "interpretation": "Home team BUF is a mild favorite (69% win probability, 3.0-point edge over NE).",
-      "generatedAt": "2026-10-04T14:21:55.718Z"
+      "generatedAt": "2026-10-04T14:30:18.427Z"
     },
     {
       "gameId": "espn-401872972",
@@ -4398,7 +4398,7 @@
         }
       ],
       "interpretation": "Home team CHI is a heavy favorite (98% win probability, 15.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:55.725Z"
+      "generatedAt": "2026-10-04T14:30:18.434Z"
     },
     {
       "gameId": "espn-401872973",
@@ -4475,7 +4475,7 @@
         }
       ],
       "interpretation": "Home team BAL is a heavy favorite (99% win probability, 16.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:55.732Z"
+      "generatedAt": "2026-10-04T14:30:18.441Z"
     },
     {
       "gameId": "espn-401872974",
@@ -4552,7 +4552,7 @@
         }
       ],
       "interpretation": "Home team MIN is a heavy favorite (99% win probability, 14.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:55.739Z"
+      "generatedAt": "2026-10-04T14:30:18.448Z"
     },
     {
       "gameId": "espn-401872975",
@@ -4629,7 +4629,7 @@
         }
       ],
       "interpretation": "Home team SF is a solid favorite (88% win probability, 8.0-point edge over DEN).",
-      "generatedAt": "2026-10-04T14:21:55.745Z"
+      "generatedAt": "2026-10-04T14:30:18.484Z"
     },
     {
       "gameId": "espn-401872976",
@@ -4706,7 +4706,7 @@
         }
       ],
       "interpretation": "Away team KC is a moderate favorite (80% win probability, 6.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:55.751Z"
+      "generatedAt": "2026-10-04T14:30:18.494Z"
     },
     {
       "gameId": "espn-401872977",
@@ -4783,7 +4783,7 @@
         }
       ],
       "interpretation": "Home team SEA is a heavy favorite (99% win probability, 14.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:55.758Z"
+      "generatedAt": "2026-10-04T14:30:18.502Z"
     },
     {
       "gameId": "espn-401872978",
@@ -4860,7 +4860,7 @@
         }
       ],
       "interpretation": "Away team DET is a mild favorite (60% win probability, 2.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:55.765Z"
+      "generatedAt": "2026-10-04T14:30:18.511Z"
     },
     {
       "gameId": "espn-401872979",
@@ -4937,7 +4937,7 @@
         }
       ],
       "interpretation": "Home team NO is a mild favorite (69% win probability, 3.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:55.771Z"
+      "generatedAt": "2026-10-04T14:30:18.519Z"
     },
     {
       "gameId": "espn-401872980",
@@ -5014,7 +5014,7 @@
         }
       ],
       "interpretation": "Home team DAL is a moderate favorite (77% win probability, 6.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:55.779Z"
+      "generatedAt": "2026-10-04T14:30:18.528Z"
     },
     {
       "gameId": "espn-401872981",
@@ -5091,7 +5091,7 @@
         }
       ],
       "interpretation": "Home team JAX is a heavy favorite (97% win probability, 12.0-point edge over PHI).",
-      "generatedAt": "2026-10-04T14:21:55.785Z"
+      "generatedAt": "2026-10-04T14:30:18.535Z"
     },
     {
       "gameId": "espn-401872982",
@@ -5168,7 +5168,7 @@
         }
       ],
       "interpretation": "Away team CIN is a solid favorite (83% win probability, 7.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:55.792Z"
+      "generatedAt": "2026-10-04T14:30:18.543Z"
     },
     {
       "gameId": "espn-401872983",
@@ -5245,7 +5245,7 @@
         }
       ],
       "interpretation": "Home team NYJ is a slight favorite (54% win probability, 1.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:55.798Z"
+      "generatedAt": "2026-10-04T14:30:18.551Z"
     },
     {
       "gameId": "espn-401872984",
@@ -5322,7 +5322,7 @@
         }
       ],
       "interpretation": "Away team HOU is a solid favorite (89% win probability, 8.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:55.804Z"
+      "generatedAt": "2026-10-04T14:30:18.558Z"
     },
     {
       "gameId": "espn-401872985",
@@ -5399,7 +5399,7 @@
         }
       ],
       "interpretation": "Home team PIT is a mild favorite (58% win probability, 2.0-point edge over IND).",
-      "generatedAt": "2026-10-04T14:21:55.811Z"
+      "generatedAt": "2026-10-04T14:30:18.566Z"
     },
     {
       "gameId": "espn-401872986",
@@ -5476,7 +5476,7 @@
         }
       ],
       "interpretation": "Home team NE is a solid favorite (92% win probability, 9.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:55.817Z"
+      "generatedAt": "2026-10-04T14:30:18.573Z"
     },
     {
       "gameId": "espn-401872987",
@@ -5553,84 +5553,84 @@
         }
       ],
       "interpretation": "Away team MIN is a moderate favorite (74% win probability, 4.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:55.823Z"
+      "generatedAt": "2026-10-04T14:30:18.580Z"
     },
     {
       "gameId": "espn-401872988",
-      "predictedHomeScore": 24.9,
-      "predictedAwayScore": 24.1,
-      "predictedSpread": -1,
-      "predictedTotal": 49,
-      "homeWinProb": 0.5414,
-      "awayWinProb": 0.4587,
-      "tieProb": 0.0605,
+      "predictedHomeScore": 24.8,
+      "predictedAwayScore": 19.3,
+      "predictedSpread": -6,
+      "predictedTotal": 44.2,
+      "homeWinProb": 0.798,
+      "awayWinProb": 0.2021,
+      "tieProb": 0.0449,
       "lambdaHome": 24.9,
-      "lambdaAway": 24.19,
+      "lambdaAway": 19.3,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 27,
-          "awayScore": 23,
-          "count": 72,
-          "pct": 0.72
+          "homeScore": 23,
+          "awayScore": 18,
+          "count": 81,
+          "pct": 0.8099999999999999
         },
         {
-          "homeScore": 27,
-          "awayScore": 24,
+          "homeScore": 26,
+          "awayScore": 17,
+          "count": 79,
+          "pct": 0.79
+        },
+        {
+          "homeScore": 25,
+          "awayScore": 20,
+          "count": 78,
+          "pct": 0.7799999999999999
+        },
+        {
+          "homeScore": 25,
+          "awayScore": 18,
+          "count": 75,
+          "pct": 0.75
+        },
+        {
+          "homeScore": 23,
+          "awayScore": 17,
+          "count": 73,
+          "pct": 0.73
+        },
+        {
+          "homeScore": 26,
+          "awayScore": 18,
+          "count": 73,
+          "pct": 0.73
+        },
+        {
+          "homeScore": 24,
+          "awayScore": 17,
           "count": 72,
           "pct": 0.72
         },
         {
           "homeScore": 24,
-          "awayScore": 26,
+          "awayScore": 16,
+          "count": 72,
+          "pct": 0.72
+        },
+        {
+          "homeScore": 23,
+          "awayScore": 19,
           "count": 71,
           "pct": 0.7100000000000001
         },
         {
           "homeScore": 26,
-          "awayScore": 24,
-          "count": 70,
-          "pct": 0.7000000000000001
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 25,
-          "count": 70,
-          "pct": 0.7000000000000001
-        },
-        {
-          "homeScore": 24,
-          "awayScore": 22,
-          "count": 70,
-          "pct": 0.7000000000000001
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 22,
-          "count": 69,
-          "pct": 0.69
-        },
-        {
-          "homeScore": 25,
-          "awayScore": 24,
-          "count": 69,
-          "pct": 0.69
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 24,
-          "count": 69,
-          "pct": 0.69
-        },
-        {
-          "homeScore": 23,
-          "awayScore": 23,
-          "count": 69,
-          "pct": 0.69
+          "awayScore": 19,
+          "count": 71,
+          "pct": 0.7100000000000001
         }
       ],
-      "interpretation": "Home team WAS is a slight favorite (54% win probability, 1.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:55.830Z"
+      "interpretation": "Home team WAS is a moderate favorite (80% win probability, 6.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:18.587Z"
     },
     {
       "gameId": "espn-401872989",
@@ -5707,7 +5707,7 @@
         }
       ],
       "interpretation": "Away team DEN is a mild favorite (63% win probability, 2.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:55.836Z"
+      "generatedAt": "2026-10-04T14:30:18.594Z"
     },
     {
       "gameId": "espn-401872990",
@@ -5784,7 +5784,7 @@
         }
       ],
       "interpretation": "Away team CHI is a moderate favorite (81% win probability, 6.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:55.843Z"
+      "generatedAt": "2026-10-04T14:30:18.603Z"
     },
     {
       "gameId": "espn-401872991",
@@ -5861,7 +5861,7 @@
         }
       ],
       "interpretation": "Away team DET is a solid favorite (87% win probability, 9.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:55.850Z"
+      "generatedAt": "2026-10-04T14:30:18.612Z"
     },
     {
       "gameId": "espn-401872992",
@@ -5938,7 +5938,7 @@
         }
       ],
       "interpretation": "Home team SEA is a moderate favorite (76% win probability, 5.0-point edge over SF).",
-      "generatedAt": "2026-10-04T14:21:55.858Z"
+      "generatedAt": "2026-10-04T14:30:18.620Z"
     },
     {
       "gameId": "espn-401872993",
@@ -6015,7 +6015,7 @@
         }
       ],
       "interpretation": "Away team BAL is a moderate favorite (73% win probability, 4.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:55.865Z"
+      "generatedAt": "2026-10-04T14:30:18.628Z"
     },
     {
       "gameId": "espn-401872994",
@@ -6092,7 +6092,7 @@
         }
       ],
       "interpretation": "Home team LAR is a mild favorite (61% win probability, 2.0-point edge over BUF).",
-      "generatedAt": "2026-10-04T14:21:55.873Z"
+      "generatedAt": "2026-10-04T14:30:18.636Z"
     },
     {
       "gameId": "espn-401872995",
@@ -6169,7 +6169,7 @@
         }
       ],
       "interpretation": "Away team SEA is a moderate favorite (78% win probability, 5.0-point edge over DEN).",
-      "generatedAt": "2026-10-04T14:21:55.880Z"
+      "generatedAt": "2026-10-04T14:30:18.643Z"
     },
     {
       "gameId": "espn-401872996",
@@ -6246,7 +6246,7 @@
         }
       ],
       "interpretation": "Home team JAX is a heavy favorite (95% win probability, 11.0-point edge over HOU).",
-      "generatedAt": "2026-10-04T14:21:55.887Z"
+      "generatedAt": "2026-10-04T14:30:18.650Z"
     },
     {
       "gameId": "espn-401872997",
@@ -6323,7 +6323,7 @@
         }
       ],
       "interpretation": "Away team BAL is a moderate favorite (77% win probability, 5.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:55.894Z"
+      "generatedAt": "2026-10-04T14:30:18.658Z"
     },
     {
       "gameId": "espn-401872998",
@@ -6400,7 +6400,7 @@
         }
       ],
       "interpretation": "Home team PHI is a moderate favorite (74% win probability, 4.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:55.901Z"
+      "generatedAt": "2026-10-04T14:30:18.665Z"
     },
     {
       "gameId": "espn-401872999",
@@ -6477,84 +6477,84 @@
         }
       ],
       "interpretation": "Away team CHI is a solid favorite (83% win probability, 7.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:55.908Z"
+      "generatedAt": "2026-10-04T14:30:18.672Z"
     },
     {
       "gameId": "espn-401873000",
-      "predictedHomeScore": 23.4,
+      "predictedHomeScore": 19.1,
       "predictedAwayScore": 21.4,
-      "predictedSpread": -2,
-      "predictedTotal": 44.8,
-      "homeWinProb": 0.6165,
-      "awayWinProb": 0.3836,
-      "tieProb": 0.0607,
-      "lambdaHome": 23.49,
+      "predictedSpread": 2,
+      "predictedTotal": 40.5,
+      "homeWinProb": 0.3617,
+      "awayWinProb": 0.6383,
+      "tieProb": 0.06,
+      "lambdaHome": 19.23,
       "lambdaAway": 21.4,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 22,
-          "awayScore": 21,
-          "count": 77,
-          "pct": 0.77
+          "homeScore": 19,
+          "awayScore": 20,
+          "count": 88,
+          "pct": 0.88
         },
         {
-          "homeScore": 22,
-          "awayScore": 22,
-          "count": 75,
-          "pct": 0.75
+          "homeScore": 19,
+          "awayScore": 23,
+          "count": 80,
+          "pct": 0.8
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 21,
+          "count": 80,
+          "pct": 0.8
+        },
+        {
+          "homeScore": 18,
+          "awayScore": 19,
+          "count": 79,
+          "pct": 0.79
         },
         {
           "homeScore": 21,
+          "awayScore": 20,
+          "count": 79,
+          "pct": 0.79
+        },
+        {
+          "homeScore": 18,
           "awayScore": 22,
+          "count": 78,
+          "pct": 0.7799999999999999
+        },
+        {
+          "homeScore": 18,
+          "awayScore": 21,
+          "count": 78,
+          "pct": 0.7799999999999999
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 24,
+          "count": 78,
+          "pct": 0.7799999999999999
+        },
+        {
+          "homeScore": 19,
+          "awayScore": 22,
+          "count": 76,
+          "pct": 0.76
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 23,
           "count": 73,
           "pct": 0.73
-        },
-        {
-          "homeScore": 21,
-          "awayScore": 21,
-          "count": 72,
-          "pct": 0.72
-        },
-        {
-          "homeScore": 25,
-          "awayScore": 22,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 23,
-          "awayScore": 19,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 23,
-          "awayScore": 18,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 24,
-          "awayScore": 21,
-          "count": 70,
-          "pct": 0.7000000000000001
-        },
-        {
-          "homeScore": 25,
-          "awayScore": 24,
-          "count": 69,
-          "pct": 0.69
-        },
-        {
-          "homeScore": 27,
-          "awayScore": 22,
-          "count": 68,
-          "pct": 0.6799999999999999
         }
       ],
-      "interpretation": "Home team NYG is a mild favorite (62% win probability, 2.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:55.914Z"
+      "interpretation": "Away team NO is a mild favorite (64% win probability, 2.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:18.678Z"
     },
     {
       "gameId": "espn-401873001",
@@ -6631,7 +6631,7 @@
         }
       ],
       "interpretation": "Home team NE is a heavy favorite (98% win probability, 13.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:55.921Z"
+      "generatedAt": "2026-10-04T14:30:18.686Z"
     },
     {
       "gameId": "espn-401873002",
@@ -6708,7 +6708,7 @@
         }
       ],
       "interpretation": "Away team PIT is a slight favorite (48% win probability, 0.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:55.927Z"
+      "generatedAt": "2026-10-04T14:30:18.695Z"
     },
     {
       "gameId": "espn-401873003",
@@ -6785,7 +6785,7 @@
         }
       ],
       "interpretation": "Home team IND is a heavy favorite (97% win probability, 13.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:55.934Z"
+      "generatedAt": "2026-10-04T14:30:18.704Z"
     },
     {
       "gameId": "espn-401873004",
@@ -6862,7 +6862,7 @@
         }
       ],
       "interpretation": "Home team LAR is a heavy favorite (99% win probability, 16.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:55.944Z"
+      "generatedAt": "2026-10-04T14:30:18.712Z"
     },
     {
       "gameId": "espn-401873005",
@@ -6939,7 +6939,7 @@
         }
       ],
       "interpretation": "Away team BUF is a solid favorite (85% win probability, 7.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:55.952Z"
+      "generatedAt": "2026-10-04T14:30:18.720Z"
     },
     {
       "gameId": "espn-401873006",
@@ -7016,7 +7016,7 @@
         }
       ],
       "interpretation": "Home team KC is a heavy favorite (95% win probability, 10.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:55.960Z"
+      "generatedAt": "2026-10-04T14:30:18.726Z"
     },
     {
       "gameId": "espn-401873007",
@@ -7093,7 +7093,7 @@
         }
       ],
       "interpretation": "Away team DAL is a slight favorite (56% win probability, 1.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:55.967Z"
+      "generatedAt": "2026-10-04T14:30:18.734Z"
     },
     {
       "gameId": "espn-401873008",
@@ -7170,7 +7170,7 @@
         }
       ],
       "interpretation": "Home team SF is a heavy favorite (99% win probability, 17.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:55.974Z"
+      "generatedAt": "2026-10-04T14:30:18.741Z"
     },
     {
       "gameId": "espn-401873010",
@@ -7247,7 +7247,7 @@
         }
       ],
       "interpretation": "Home team CHI is a mild favorite (64% win probability, 2.0-point edge over NE).",
-      "generatedAt": "2026-10-04T14:21:55.981Z"
+      "generatedAt": "2026-10-04T14:30:18.748Z"
     },
     {
       "gameId": "espn-401873011",
@@ -7324,7 +7324,7 @@
         }
       ],
       "interpretation": "Away team PIT is a slight favorite (48% win probability, 0.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:55.988Z"
+      "generatedAt": "2026-10-04T14:30:18.755Z"
     },
     {
       "gameId": "espn-401873012",
@@ -7401,7 +7401,7 @@
         }
       ],
       "interpretation": "Home team BAL is a moderate favorite (80% win probability, 6.0-point edge over CIN).",
-      "generatedAt": "2026-10-04T14:21:55.996Z"
+      "generatedAt": "2026-10-04T14:30:18.762Z"
     },
     {
       "gameId": "espn-401873013",
@@ -7478,7 +7478,7 @@
         }
       ],
       "interpretation": "Away team CLE is a mild favorite (64% win probability, 2.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:56.002Z"
+      "generatedAt": "2026-10-04T14:30:18.768Z"
     },
     {
       "gameId": "espn-401873014",
@@ -7555,7 +7555,7 @@
         }
       ],
       "interpretation": "Home team MIN is a solid favorite (86% win probability, 7.0-point edge over IND).",
-      "generatedAt": "2026-10-04T14:21:56.008Z"
+      "generatedAt": "2026-10-04T14:30:18.775Z"
     },
     {
       "gameId": "espn-401873015",
@@ -7632,84 +7632,84 @@
         }
       ],
       "interpretation": "Home team NYJ is a moderate favorite (75% win probability, 4.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.015Z"
+      "generatedAt": "2026-10-04T14:30:18.782Z"
     },
     {
       "gameId": "espn-401873016",
-      "predictedHomeScore": 24,
-      "predictedAwayScore": 17.4,
-      "predictedSpread": -7,
-      "predictedTotal": 41.4,
-      "homeWinProb": 0.8455,
-      "awayWinProb": 0.1546,
-      "tieProb": 0.0353,
+      "predictedHomeScore": 23.9,
+      "predictedAwayScore": 13.9,
+      "predictedSpread": -10,
+      "predictedTotal": 37.8,
+      "homeWinProb": 0.9505,
+      "awayWinProb": 0.0495,
+      "tieProb": 0.0181,
       "lambdaHome": 24,
-      "lambdaAway": 17.39,
+      "lambdaAway": 13.88,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 24,
-          "awayScore": 16,
+          "homeScore": 26,
+          "awayScore": 13,
+          "count": 97,
+          "pct": 0.97
+        },
+        {
+          "homeScore": 23,
+          "awayScore": 13,
           "count": 91,
           "pct": 0.91
         },
         {
-          "homeScore": 24,
+          "homeScore": 25,
+          "awayScore": 14,
+          "count": 90,
+          "pct": 0.8999999999999999
+        },
+        {
+          "homeScore": 25,
           "awayScore": 15,
-          "count": 87,
-          "pct": 0.8699999999999999
+          "count": 90,
+          "pct": 0.8999999999999999
         },
         {
           "homeScore": 23,
-          "awayScore": 16,
-          "count": 86,
-          "pct": 0.86
+          "awayScore": 14,
+          "count": 88,
+          "pct": 0.88
+        },
+        {
+          "homeScore": 24,
+          "awayScore": 12,
+          "count": 83,
+          "pct": 0.83
+        },
+        {
+          "homeScore": 26,
+          "awayScore": 12,
+          "count": 83,
+          "pct": 0.83
         },
         {
           "homeScore": 23,
-          "awayScore": 18,
-          "count": 86,
-          "pct": 0.86
+          "awayScore": 12,
+          "count": 83,
+          "pct": 0.83
         },
         {
-          "homeScore": 25,
-          "awayScore": 17,
-          "count": 84,
-          "pct": 0.84
+          "homeScore": 23,
+          "awayScore": 11,
+          "count": 82,
+          "pct": 0.8200000000000001
         },
         {
-          "homeScore": 22,
-          "awayScore": 17,
-          "count": 80,
-          "pct": 0.8
-        },
-        {
-          "homeScore": 25,
-          "awayScore": 18,
+          "homeScore": 24,
+          "awayScore": 13,
           "count": 79,
           "pct": 0.79
-        },
-        {
-          "homeScore": 24,
-          "awayScore": 17,
-          "count": 78,
-          "pct": 0.7799999999999999
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 16,
-          "count": 77,
-          "pct": 0.77
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 18,
-          "count": 77,
-          "pct": 0.77
         }
       ],
-      "interpretation": "Home team HOU is a solid favorite (85% win probability, 7.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:56.021Z"
+      "interpretation": "Home team HOU is a heavy favorite (95% win probability, 10.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:18.788Z"
     },
     {
       "gameId": "espn-401873017",
@@ -7786,7 +7786,7 @@
         }
       ],
       "interpretation": "Away team SF is a solid favorite (91% win probability, 9.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:56.028Z"
+      "generatedAt": "2026-10-04T14:30:18.795Z"
     },
     {
       "gameId": "espn-401873018",
@@ -7863,7 +7863,7 @@
         }
       ],
       "interpretation": "Home team CAR is a moderate favorite (71% win probability, 4.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:56.035Z"
+      "generatedAt": "2026-10-04T14:30:18.801Z"
     },
     {
       "gameId": "espn-401873019",
@@ -7940,7 +7940,7 @@
         }
       ],
       "interpretation": "Away team DEN is a moderate favorite (82% win probability, 6.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:56.042Z"
+      "generatedAt": "2026-10-04T14:30:18.808Z"
     },
     {
       "gameId": "espn-401873020",
@@ -8017,7 +8017,7 @@
         }
       ],
       "interpretation": "Home team DET is a solid favorite (87% win probability, 8.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:56.049Z"
+      "generatedAt": "2026-10-04T14:30:18.816Z"
     },
     {
       "gameId": "espn-401873021",
@@ -8094,7 +8094,7 @@
         }
       ],
       "interpretation": "Away team LAR is a moderate favorite (81% win probability, 6.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:56.056Z"
+      "generatedAt": "2026-10-04T14:30:18.823Z"
     },
     {
       "gameId": "espn-401873022",
@@ -8171,7 +8171,7 @@
         }
       ],
       "interpretation": "Home team SEA is a moderate favorite (82% win probability, 6.0-point edge over KC).",
-      "generatedAt": "2026-10-04T14:21:56.062Z"
+      "generatedAt": "2026-10-04T14:30:18.829Z"
     },
     {
       "gameId": "espn-401873009",
@@ -8248,7 +8248,7 @@
         }
       ],
       "interpretation": "Home team PHI is a mild favorite (67% win probability, 3.0-point edge over DAL).",
-      "generatedAt": "2026-10-04T14:21:56.069Z"
+      "generatedAt": "2026-10-04T14:30:18.836Z"
     },
     {
       "gameId": "espn-401873023",
@@ -8325,7 +8325,7 @@
         }
       ],
       "interpretation": "Home team GB is a slight favorite (55% win probability, 1.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:56.076Z"
+      "generatedAt": "2026-10-04T14:30:18.843Z"
     },
     {
       "gameId": "espn-401873024",
@@ -8402,7 +8402,7 @@
         }
       ],
       "interpretation": "Home team DAL is a heavy favorite (91% win probability, 11.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:56.084Z"
+      "generatedAt": "2026-10-04T14:30:18.852Z"
     },
     {
       "gameId": "espn-401873025",
@@ -8479,7 +8479,7 @@
         }
       ],
       "interpretation": "Home team TB is a mild favorite (68% win probability, 3.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:56.090Z"
+      "generatedAt": "2026-10-04T14:30:18.860Z"
     },
     {
       "gameId": "espn-401873026",
@@ -8556,7 +8556,7 @@
         }
       ],
       "interpretation": "Home team BUF is a solid favorite (81% win probability, 7.0-point edge over BAL).",
-      "generatedAt": "2026-10-04T14:21:56.097Z"
+      "generatedAt": "2026-10-04T14:30:18.868Z"
     },
     {
       "gameId": "espn-401873027",
@@ -8633,7 +8633,7 @@
         }
       ],
       "interpretation": "Home team PIT is a moderate favorite (82% win probability, 6.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:56.104Z"
+      "generatedAt": "2026-10-04T14:30:18.875Z"
     },
     {
       "gameId": "espn-401873028",
@@ -8710,7 +8710,7 @@
         }
       ],
       "interpretation": "Home team JAX is a heavy favorite (98% win probability, 15.0-point edge over IND).",
-      "generatedAt": "2026-10-04T14:21:56.111Z"
+      "generatedAt": "2026-10-04T14:30:18.882Z"
     },
     {
       "gameId": "espn-401873029",
@@ -8787,7 +8787,7 @@
         }
       ],
       "interpretation": "Away team LV is a mild favorite (60% win probability, 2.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:56.117Z"
+      "generatedAt": "2026-10-04T14:30:18.889Z"
     },
     {
       "gameId": "espn-401873030",
@@ -8864,7 +8864,7 @@
         }
       ],
       "interpretation": "Away team MIN is a slight favorite (54% win probability, 1.0-point edge over DET).",
-      "generatedAt": "2026-10-04T14:21:56.124Z"
+      "generatedAt": "2026-10-04T14:30:18.897Z"
     },
     {
       "gameId": "espn-401873031",
@@ -8941,7 +8941,7 @@
         }
       ],
       "interpretation": "Home team CIN is a heavy favorite (97% win probability, 13.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:56.131Z"
+      "generatedAt": "2026-10-04T14:30:18.904Z"
     },
     {
       "gameId": "espn-401873032",
@@ -9018,7 +9018,7 @@
         }
       ],
       "interpretation": "Home team LAR is a heavy favorite (95% win probability, 11.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:56.137Z"
+      "generatedAt": "2026-10-04T14:30:18.910Z"
     },
     {
       "gameId": "espn-401873033",
@@ -9095,7 +9095,7 @@
         }
       ],
       "interpretation": "Away team KC is a slight favorite (58% win probability, 1.0-point edge over DEN).",
-      "generatedAt": "2026-10-04T14:21:56.143Z"
+      "generatedAt": "2026-10-04T14:30:18.917Z"
     },
     {
       "gameId": "espn-401873034",
@@ -9172,7 +9172,7 @@
         }
       ],
       "interpretation": "Away team NE is a heavy favorite (93% win probability, 10.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.150Z"
+      "generatedAt": "2026-10-04T14:30:18.924Z"
     },
     {
       "gameId": "espn-401873035",
@@ -9249,7 +9249,7 @@
         }
       ],
       "interpretation": "Away team PHI is a mild favorite (66% win probability, 3.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:56.156Z"
+      "generatedAt": "2026-10-04T14:30:18.931Z"
     },
     {
       "gameId": "espn-401873036",
@@ -9326,7 +9326,7 @@
         }
       ],
       "interpretation": "Home team SEA is a solid favorite (88% win probability, 8.0-point edge over CHI).",
-      "generatedAt": "2026-10-04T14:21:56.163Z"
+      "generatedAt": "2026-10-04T14:30:18.937Z"
     },
     {
       "gameId": "espn-401873037",
@@ -9403,7 +9403,7 @@
         }
       ],
       "interpretation": "Away team JAX is a solid favorite (83% win probability, 7.0-point edge over BAL).",
-      "generatedAt": "2026-10-04T14:21:56.170Z"
+      "generatedAt": "2026-10-04T14:30:18.945Z"
     },
     {
       "gameId": "espn-401873038",
@@ -9480,7 +9480,7 @@
         }
       ],
       "interpretation": "Away team CIN is a slight favorite (56% win probability, 1.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:56.177Z"
+      "generatedAt": "2026-10-04T14:30:18.953Z"
     },
     {
       "gameId": "espn-401873039",
@@ -9557,7 +9557,7 @@
         }
       ],
       "interpretation": "Home team NO is a moderate favorite (75% win probability, 4.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:56.183Z"
+      "generatedAt": "2026-10-04T14:30:18.960Z"
     },
     {
       "gameId": "espn-401873040",
@@ -9634,7 +9634,7 @@
         }
       ],
       "interpretation": "Home team IND is a mild favorite (63% win probability, 3.0-point edge over DAL).",
-      "generatedAt": "2026-10-04T14:21:56.191Z"
+      "generatedAt": "2026-10-04T14:30:18.968Z"
     },
     {
       "gameId": "espn-401873041",
@@ -9711,7 +9711,7 @@
         }
       ],
       "interpretation": "Away team DEN is a slight favorite (58% win probability, 1.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:56.198Z"
+      "generatedAt": "2026-10-04T14:30:18.975Z"
     },
     {
       "gameId": "espn-401873042",
@@ -9788,7 +9788,7 @@
         }
       ],
       "interpretation": "Away team DET is a heavy favorite (93% win probability, 11.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.205Z"
+      "generatedAt": "2026-10-04T14:30:18.982Z"
     },
     {
       "gameId": "espn-401873043",
@@ -9865,84 +9865,84 @@
         }
       ],
       "interpretation": "Away team LAR is a heavy favorite (91% win probability, 10.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:56.212Z"
+      "generatedAt": "2026-10-04T14:30:18.990Z"
     },
     {
       "gameId": "espn-401873044",
       "predictedHomeScore": 23.2,
-      "predictedAwayScore": 17.7,
-      "predictedSpread": -5,
-      "predictedTotal": 40.9,
-      "homeWinProb": 0.8075,
-      "awayWinProb": 0.1926,
-      "tieProb": 0.0429,
+      "predictedAwayScore": 14.1,
+      "predictedSpread": -9,
+      "predictedTotal": 37.4,
+      "homeWinProb": 0.9332,
+      "awayWinProb": 0.0669,
+      "tieProb": 0.0219,
       "lambdaHome": 23.2,
-      "lambdaAway": 17.73,
+      "lambdaAway": 14.15,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 24,
-          "awayScore": 17,
+          "homeScore": 22,
+          "awayScore": 13,
           "count": 102,
           "pct": 1.02
         },
         {
-          "homeScore": 23,
-          "awayScore": 17,
-          "count": 82,
-          "pct": 0.8200000000000001
-        },
-        {
-          "homeScore": 23,
-          "awayScore": 19,
-          "count": 82,
-          "pct": 0.8200000000000001
+          "homeScore": 21,
+          "awayScore": 14,
+          "count": 97,
+          "pct": 0.97
         },
         {
           "homeScore": 22,
-          "awayScore": 19,
-          "count": 81,
-          "pct": 0.8099999999999999
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 17,
-          "count": 79,
-          "pct": 0.79
-        },
-        {
-          "homeScore": 23,
-          "awayScore": 16,
-          "count": 77,
-          "pct": 0.77
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 16,
-          "count": 76,
-          "pct": 0.76
+          "awayScore": 15,
+          "count": 92,
+          "pct": 0.9199999999999999
         },
         {
           "homeScore": 24,
+          "awayScore": 13,
+          "count": 90,
+          "pct": 0.8999999999999999
+        },
+        {
+          "homeScore": 20,
           "awayScore": 15,
-          "count": 75,
-          "pct": 0.75
+          "count": 90,
+          "pct": 0.8999999999999999
         },
         {
           "homeScore": 23,
-          "awayScore": 18,
-          "count": 75,
-          "pct": 0.75
+          "awayScore": 13,
+          "count": 89,
+          "pct": 0.89
         },
         {
           "homeScore": 22,
-          "awayScore": 14,
-          "count": 74,
-          "pct": 0.74
+          "awayScore": 16,
+          "count": 87,
+          "pct": 0.8699999999999999
+        },
+        {
+          "homeScore": 22,
+          "awayScore": 12,
+          "count": 86,
+          "pct": 0.86
+        },
+        {
+          "homeScore": 21,
+          "awayScore": 12,
+          "count": 86,
+          "pct": 0.86
+        },
+        {
+          "homeScore": 21,
+          "awayScore": 13,
+          "count": 83,
+          "pct": 0.83
         }
       ],
-      "interpretation": "Home team PHI is a moderate favorite (81% win probability, 5.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:56.218Z"
+      "interpretation": "Home team PHI is a solid favorite (93% win probability, 9.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:18.996Z"
     },
     {
       "gameId": "espn-401873045",
@@ -10019,7 +10019,7 @@
         }
       ],
       "interpretation": "Home team KC is a heavy favorite (99% win probability, 15.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:56.224Z"
+      "generatedAt": "2026-10-04T14:30:19.002Z"
     },
     {
       "gameId": "espn-401873046",
@@ -10096,7 +10096,7 @@
         }
       ],
       "interpretation": "Away team HOU is a mild favorite (60% win probability, 2.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:56.230Z"
+      "generatedAt": "2026-10-04T14:30:19.008Z"
     },
     {
       "gameId": "espn-401873047",
@@ -10173,7 +10173,7 @@
         }
       ],
       "interpretation": "Home team SF is a heavy favorite (97% win probability, 13.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:56.237Z"
+      "generatedAt": "2026-10-04T14:30:19.016Z"
     },
     {
       "gameId": "espn-401873048",
@@ -10250,7 +10250,7 @@
         }
       ],
       "interpretation": "Home team SEA is a heavy favorite (100% win probability, 20.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:56.243Z"
+      "generatedAt": "2026-10-04T14:30:19.023Z"
     },
     {
       "gameId": "espn-401873049",
@@ -10327,7 +10327,7 @@
         }
       ],
       "interpretation": "Home team NE is a heavy favorite (93% win probability, 10.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:56.249Z"
+      "generatedAt": "2026-10-04T14:30:19.029Z"
     },
     {
       "gameId": "espn-401873050",
@@ -10404,7 +10404,7 @@
         }
       ],
       "interpretation": "Home team CHI is a heavy favorite (94% win probability, 12.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:56.256Z"
+      "generatedAt": "2026-10-04T14:30:19.039Z"
     },
     {
       "gameId": "espn-401873051",
@@ -10481,84 +10481,84 @@
         }
       ],
       "interpretation": "Home team MIN is a slight favorite (57% win probability, 1.0-point edge over BUF).",
-      "generatedAt": "2026-10-04T14:21:56.263Z"
+      "generatedAt": "2026-10-04T14:30:19.047Z"
     },
     {
       "gameId": "espn-401873052",
-      "predictedHomeScore": 26.5,
+      "predictedHomeScore": 21.6,
       "predictedAwayScore": 22.5,
-      "predictedSpread": -4,
-      "predictedTotal": 49,
-      "homeWinProb": 0.7216,
-      "awayWinProb": 0.2784,
-      "tieProb": 0.0466,
-      "lambdaHome": 26.59,
+      "predictedSpread": 1,
+      "predictedTotal": 44.1,
+      "homeWinProb": 0.4501,
+      "awayWinProb": 0.55,
+      "tieProb": 0.0609,
+      "lambdaHome": 21.7,
       "lambdaAway": 22.5,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 26,
+          "homeScore": 21,
           "awayScore": 23,
+          "count": 92,
+          "pct": 0.9199999999999999
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 22,
+          "count": 81,
+          "pct": 0.8099999999999999
+        },
+        {
+          "homeScore": 22,
+          "awayScore": 20,
+          "count": 81,
+          "pct": 0.8099999999999999
+        },
+        {
+          "homeScore": 22,
+          "awayScore": 23,
+          "count": 79,
+          "pct": 0.79
+        },
+        {
+          "homeScore": 23,
+          "awayScore": 22,
+          "count": 78,
+          "pct": 0.7799999999999999
+        },
+        {
+          "homeScore": 21,
+          "awayScore": 22,
           "count": 76,
           "pct": 0.76
         },
         {
-          "homeScore": 25,
-          "awayScore": 20,
-          "count": 75,
-          "pct": 0.75
+          "homeScore": 19,
+          "awayScore": 21,
+          "count": 76,
+          "pct": 0.76
         },
         {
-          "homeScore": 27,
+          "homeScore": 20,
+          "awayScore": 20,
+          "count": 76,
+          "pct": 0.76
+        },
+        {
+          "homeScore": 22,
           "awayScore": 21,
           "count": 73,
           "pct": 0.73
         },
         {
-          "homeScore": 25,
-          "awayScore": 22,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 25,
-          "awayScore": 24,
-          "count": 70,
-          "pct": 0.7000000000000001
-        },
-        {
-          "homeScore": 25,
-          "awayScore": 23,
-          "count": 69,
-          "pct": 0.69
-        },
-        {
-          "homeScore": 26,
-          "awayScore": 21,
-          "count": 67,
-          "pct": 0.67
-        },
-        {
-          "homeScore": 29,
+          "homeScore": 21,
           "awayScore": 20,
-          "count": 67,
-          "pct": 0.67
-        },
-        {
-          "homeScore": 26,
-          "awayScore": 22,
-          "count": 67,
-          "pct": 0.67
-        },
-        {
-          "homeScore": 24,
-          "awayScore": 21,
-          "count": 66,
-          "pct": 0.66
+          "count": 72,
+          "pct": 0.72
         }
       ],
-      "interpretation": "Home team NYG is a moderate favorite (72% win probability, 4.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:56.269Z"
+      "interpretation": "Away team WAS is a slight favorite (55% win probability, 1.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:19.059Z"
     },
     {
       "gameId": "espn-401873053",
@@ -10635,7 +10635,7 @@
         }
       ],
       "interpretation": "Away team NE is a slight favorite (56% win probability, 1.0-point edge over DET).",
-      "generatedAt": "2026-10-04T14:21:56.277Z"
+      "generatedAt": "2026-10-04T14:30:19.066Z"
     },
     {
       "gameId": "espn-401873054",
@@ -10712,7 +10712,7 @@
         }
       ],
       "interpretation": "Away team BUF is a heavy favorite (96% win probability, 13.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:56.284Z"
+      "generatedAt": "2026-10-04T14:30:19.073Z"
     },
     {
       "gameId": "espn-401873055",
@@ -10789,7 +10789,7 @@
         }
       ],
       "interpretation": "Home team NO is a slight favorite (55% win probability, 1.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:56.291Z"
+      "generatedAt": "2026-10-04T14:30:19.080Z"
     },
     {
       "gameId": "espn-401873056",
@@ -10866,7 +10866,7 @@
         }
       ],
       "interpretation": "Away team HOU is a mild favorite (69% win probability, 3.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:56.297Z"
+      "generatedAt": "2026-10-04T14:30:19.086Z"
     },
     {
       "gameId": "espn-401873057",
@@ -10943,7 +10943,7 @@
         }
       ],
       "interpretation": "Away team JAX is a heavy favorite (99% win probability, 16.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:56.304Z"
+      "generatedAt": "2026-10-04T14:30:19.092Z"
     },
     {
       "gameId": "espn-401873058",
@@ -11020,7 +11020,7 @@
         }
       ],
       "interpretation": "Away team KC is a solid favorite (84% win probability, 7.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:56.310Z"
+      "generatedAt": "2026-10-04T14:30:19.099Z"
     },
     {
       "gameId": "espn-401873059",
@@ -11097,7 +11097,7 @@
         }
       ],
       "interpretation": "Home team IND is a heavy favorite (96% win probability, 12.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.317Z"
+      "generatedAt": "2026-10-04T14:30:19.106Z"
     },
     {
       "gameId": "espn-401873060",
@@ -11174,7 +11174,7 @@
         }
       ],
       "interpretation": "Away team MIN is a moderate favorite (74% win probability, 4.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:56.323Z"
+      "generatedAt": "2026-10-04T14:30:19.114Z"
     },
     {
       "gameId": "espn-401873061",
@@ -11251,7 +11251,7 @@
         }
       ],
       "interpretation": "Away team LAR is a heavy favorite (94% win probability, 12.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:56.330Z"
+      "generatedAt": "2026-10-04T14:30:19.121Z"
     },
     {
       "gameId": "espn-401873062",
@@ -11328,7 +11328,7 @@
         }
       ],
       "interpretation": "Away team SEA is a heavy favorite (93% win probability, 10.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:56.336Z"
+      "generatedAt": "2026-10-04T14:30:19.129Z"
     },
     {
       "gameId": "espn-401873063",
@@ -11405,7 +11405,7 @@
         }
       ],
       "interpretation": "Away team SF is a solid favorite (87% win probability, 9.0-point edge over DAL).",
-      "generatedAt": "2026-10-04T14:21:56.343Z"
+      "generatedAt": "2026-10-04T14:30:19.137Z"
     },
     {
       "gameId": "espn-401873064",
@@ -11482,7 +11482,7 @@
         }
       ],
       "interpretation": "Home team CIN is a mild favorite (65% win probability, 3.0-point edge over PIT).",
-      "generatedAt": "2026-10-04T14:21:56.350Z"
+      "generatedAt": "2026-10-04T14:30:19.145Z"
     },
     {
       "gameId": "espn-401873065",
@@ -11559,7 +11559,7 @@
         }
       ],
       "interpretation": "Home team BAL is a solid favorite (88% win probability, 8.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:56.356Z"
+      "generatedAt": "2026-10-04T14:30:19.152Z"
     },
     {
       "gameId": "espn-401873066",
@@ -11636,7 +11636,7 @@
         }
       ],
       "interpretation": "Home team HOU is a moderate favorite (73% win probability, 4.0-point edge over IND).",
-      "generatedAt": "2026-10-04T14:21:56.363Z"
+      "generatedAt": "2026-10-04T14:30:19.160Z"
     },
     {
       "gameId": "espn-401873067",
@@ -11713,7 +11713,7 @@
         }
       ],
       "interpretation": "Home team KC is a heavy favorite (99% win probability, 15.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:56.370Z"
+      "generatedAt": "2026-10-04T14:30:19.167Z"
     },
     {
       "gameId": "espn-401873068",
@@ -11790,84 +11790,84 @@
         }
       ],
       "interpretation": "Away team BAL is a mild favorite (62% win probability, 2.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:56.377Z"
+      "generatedAt": "2026-10-04T14:30:19.175Z"
     },
     {
       "gameId": "espn-401873069",
-      "predictedHomeScore": 17,
+      "predictedHomeScore": 14,
       "predictedAwayScore": 27.7,
-      "predictedSpread": 11,
-      "predictedTotal": 44.7,
-      "homeWinProb": 0.0502,
-      "awayWinProb": 0.9498,
-      "tieProb": 0.017,
-      "lambdaHome": 16.95,
+      "predictedSpread": 14,
+      "predictedTotal": 41.7,
+      "homeWinProb": 0.0143,
+      "awayWinProb": 0.9857,
+      "tieProb": 0.0064,
+      "lambdaHome": 14.01,
       "lambdaAway": 27.7,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 16,
+          "homeScore": 14,
           "awayScore": 29,
+          "count": 92,
+          "pct": 0.9199999999999999
+        },
+        {
+          "homeScore": 14,
+          "awayScore": 26,
+          "count": 88,
+          "pct": 0.88
+        },
+        {
+          "homeScore": 14,
+          "awayScore": 30,
+          "count": 87,
+          "pct": 0.8699999999999999
+        },
+        {
+          "homeScore": 14,
+          "awayScore": 27,
+          "count": 85,
+          "pct": 0.8500000000000001
+        },
+        {
+          "homeScore": 14,
+          "awayScore": 25,
           "count": 84,
           "pct": 0.84
         },
         {
-          "homeScore": 17,
-          "awayScore": 28,
-          "count": 83,
-          "pct": 0.83
-        },
-        {
-          "homeScore": 17,
-          "awayScore": 29,
-          "count": 82,
-          "pct": 0.8200000000000001
-        },
-        {
-          "homeScore": 17,
+          "homeScore": 13,
           "awayScore": 26,
-          "count": 82,
-          "pct": 0.8200000000000001
+          "count": 81,
+          "pct": 0.8099999999999999
         },
         {
-          "homeScore": 15,
-          "awayScore": 24,
-          "count": 78,
-          "pct": 0.7799999999999999
-        },
-        {
-          "homeScore": 18,
-          "awayScore": 26,
-          "count": 73,
-          "pct": 0.73
-        },
-        {
-          "homeScore": 15,
+          "homeScore": 13,
           "awayScore": 29,
-          "count": 73,
-          "pct": 0.73
+          "count": 79,
+          "pct": 0.79
         },
         {
-          "homeScore": 15,
+          "homeScore": 13,
+          "awayScore": 30,
+          "count": 76,
+          "pct": 0.76
+        },
+        {
+          "homeScore": 14,
           "awayScore": 28,
-          "count": 72,
-          "pct": 0.72
+          "count": 75,
+          "pct": 0.75
         },
         {
-          "homeScore": 15,
-          "awayScore": 27,
-          "count": 70,
-          "pct": 0.7000000000000001
-        },
-        {
-          "homeScore": 18,
-          "awayScore": 28,
-          "count": 70,
-          "pct": 0.7000000000000001
+          "homeScore": 12,
+          "awayScore": 30,
+          "count": 74,
+          "pct": 0.74
         }
       ],
-      "interpretation": "Away team JAX is a heavy favorite (95% win probability, 11.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:56.384Z"
+      "interpretation": "Away team JAX is a heavy favorite (99% win probability, 14.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:19.181Z"
     },
     {
       "gameId": "espn-401873070",
@@ -11944,7 +11944,7 @@
         }
       ],
       "interpretation": "Home team BUF is a heavy favorite (100% win probability, 19.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.391Z"
+      "generatedAt": "2026-10-04T14:30:19.189Z"
     },
     {
       "gameId": "espn-401873071",
@@ -12021,7 +12021,7 @@
         }
       ],
       "interpretation": "Home team CHI is a heavy favorite (94% win probability, 11.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:56.398Z"
+      "generatedAt": "2026-10-04T14:30:19.196Z"
     },
     {
       "gameId": "espn-401873072",
@@ -12098,7 +12098,7 @@
         }
       ],
       "interpretation": "Home team DET is a solid favorite (87% win probability, 9.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:56.405Z"
+      "generatedAt": "2026-10-04T14:30:19.203Z"
     },
     {
       "gameId": "espn-401873073",
@@ -12175,7 +12175,7 @@
         }
       ],
       "interpretation": "Home team DAL is a heavy favorite (97% win probability, 14.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:56.413Z"
+      "generatedAt": "2026-10-04T14:30:19.210Z"
     },
     {
       "gameId": "espn-401873074",
@@ -12252,7 +12252,7 @@
         }
       ],
       "interpretation": "Home team LAC is a moderate favorite (82% win probability, 6.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:56.420Z"
+      "generatedAt": "2026-10-04T14:30:19.216Z"
     },
     {
       "gameId": "espn-401873075",
@@ -12329,7 +12329,7 @@
         }
       ],
       "interpretation": "Home team DEN is a solid favorite (85% win probability, 7.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:56.427Z"
+      "generatedAt": "2026-10-04T14:30:19.223Z"
     },
     {
       "gameId": "espn-401873076",
@@ -12406,7 +12406,7 @@
         }
       ],
       "interpretation": "Home team PHI is a moderate favorite (71% win probability, 4.0-point edge over PIT).",
-      "generatedAt": "2026-10-04T14:21:56.434Z"
+      "generatedAt": "2026-10-04T14:30:19.229Z"
     },
     {
       "gameId": "espn-401873077",
@@ -12483,7 +12483,7 @@
         }
       ],
       "interpretation": "Home team SF is a moderate favorite (79% win probability, 5.0-point edge over MIN).",
-      "generatedAt": "2026-10-04T14:21:56.440Z"
+      "generatedAt": "2026-10-04T14:30:19.236Z"
     },
     {
       "gameId": "espn-401873078",
@@ -12560,7 +12560,7 @@
         }
       ],
       "interpretation": "Away team CIN is a mild favorite (65% win probability, 3.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:56.448Z"
+      "generatedAt": "2026-10-04T14:30:19.243Z"
     },
     {
       "gameId": "espn-401873079",
@@ -12637,7 +12637,7 @@
         }
       ],
       "interpretation": "Home team LAR is a heavy favorite (95% win probability, 12.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:56.455Z"
+      "generatedAt": "2026-10-04T14:30:19.250Z"
     },
     {
       "gameId": "espn-401873080",
@@ -12714,7 +12714,7 @@
         }
       ],
       "interpretation": "Home team DAL is a slight favorite (57% win probability, 1.0-point edge over PHI).",
-      "generatedAt": "2026-10-04T14:21:56.462Z"
+      "generatedAt": "2026-10-04T14:30:19.256Z"
     },
     {
       "gameId": "espn-401873081",
@@ -12791,7 +12791,7 @@
         }
       ],
       "interpretation": "Away team CHI is a mild favorite (59% win probability, 2.0-point edge over DET).",
-      "generatedAt": "2026-10-04T14:21:56.469Z"
+      "generatedAt": "2026-10-04T14:30:19.265Z"
     },
     {
       "gameId": "espn-401873082",
@@ -12868,7 +12868,7 @@
         }
       ],
       "interpretation": "Home team BUF is a mild favorite (61% win probability, 2.0-point edge over KC).",
-      "generatedAt": "2026-10-04T14:21:56.476Z"
+      "generatedAt": "2026-10-04T14:30:19.272Z"
     },
     {
       "gameId": "espn-401873083",
@@ -12945,7 +12945,7 @@
         }
       ],
       "interpretation": "Away team DEN is a slight favorite (53% win probability, 0.0-point edge over PIT).",
-      "generatedAt": "2026-10-04T14:21:56.482Z"
+      "generatedAt": "2026-10-04T14:30:19.278Z"
     },
     {
       "gameId": "espn-401873084",
@@ -13022,7 +13022,7 @@
         }
       ],
       "interpretation": "Home team MIN is a solid favorite (93% win probability, 9.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:56.488Z"
+      "generatedAt": "2026-10-04T14:30:19.284Z"
     },
     {
       "gameId": "espn-401873085",
@@ -13099,7 +13099,7 @@
         }
       ],
       "interpretation": "Home team HOU is a slight favorite (58% win probability, 1.0-point edge over BAL).",
-      "generatedAt": "2026-10-04T14:21:56.495Z"
+      "generatedAt": "2026-10-04T14:30:19.291Z"
     },
     {
       "gameId": "espn-401873086",
@@ -13176,7 +13176,7 @@
         }
       ],
       "interpretation": "Away team LV is a slight favorite (47% win probability, 0.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:56.501Z"
+      "generatedAt": "2026-10-04T14:30:19.297Z"
     },
     {
       "gameId": "espn-401873087",
@@ -13253,84 +13253,84 @@
         }
       ],
       "interpretation": "Home team CIN is a moderate favorite (75% win probability, 5.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:56.508Z"
+      "generatedAt": "2026-10-04T14:30:19.305Z"
     },
     {
       "gameId": "espn-401873088",
-      "predictedHomeScore": 28.6,
-      "predictedAwayScore": 22.8,
-      "predictedSpread": -6,
-      "predictedTotal": 51.4,
-      "homeWinProb": 0.7825,
-      "awayWinProb": 0.2175,
-      "tieProb": 0.0402,
+      "predictedHomeScore": 28.5,
+      "predictedAwayScore": 18.3,
+      "predictedSpread": -10,
+      "predictedTotal": 46.8,
+      "homeWinProb": 0.9322,
+      "awayWinProb": 0.0678,
+      "tieProb": 0.0202,
       "lambdaHome": 28.5,
-      "lambdaAway": 22.81,
+      "lambdaAway": 18.2,
       "simulations": 10000,
       "sampleOutcomes": [
         {
           "homeScore": 29,
-          "awayScore": 24,
+          "awayScore": 17,
+          "count": 77,
+          "pct": 0.77
+        },
+        {
+          "homeScore": 26,
+          "awayScore": 16,
+          "count": 76,
+          "pct": 0.76
+        },
+        {
+          "homeScore": 29,
+          "awayScore": 19,
           "count": 72,
           "pct": 0.72
         },
         {
           "homeScore": 31,
-          "awayScore": 23,
-          "count": 71,
-          "pct": 0.7100000000000001
+          "awayScore": 19,
+          "count": 72,
+          "pct": 0.72
         },
         {
           "homeScore": 27,
-          "awayScore": 25,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 27,
-          "awayScore": 22,
-          "count": 64,
-          "pct": 0.64
-        },
-        {
-          "homeScore": 29,
-          "awayScore": 22,
-          "count": 63,
-          "pct": 0.63
+          "awayScore": 19,
+          "count": 72,
+          "pct": 0.72
         },
         {
           "homeScore": 30,
-          "awayScore": 20,
-          "count": 61,
-          "pct": 0.61
+          "awayScore": 17,
+          "count": 71,
+          "pct": 0.7100000000000001
+        },
+        {
+          "homeScore": 27,
+          "awayScore": 16,
+          "count": 71,
+          "pct": 0.7100000000000001
+        },
+        {
+          "homeScore": 26,
+          "awayScore": 17,
+          "count": 69,
+          "pct": 0.69
+        },
+        {
+          "homeScore": 30,
+          "awayScore": 18,
+          "count": 69,
+          "pct": 0.69
         },
         {
           "homeScore": 28,
-          "awayScore": 24,
-          "count": 61,
-          "pct": 0.61
-        },
-        {
-          "homeScore": 31,
-          "awayScore": 21,
-          "count": 59,
-          "pct": 0.59
-        },
-        {
-          "homeScore": 27,
-          "awayScore": 24,
-          "count": 58,
-          "pct": 0.58
-        },
-        {
-          "homeScore": 30,
-          "awayScore": 22,
-          "count": 57,
-          "pct": 0.5700000000000001
+          "awayScore": 17,
+          "count": 69,
+          "pct": 0.69
         }
       ],
-      "interpretation": "Home team IND is a moderate favorite (78% win probability, 6.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:56.515Z"
+      "interpretation": "Home team IND is a heavy favorite (93% win probability, 10.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:19.311Z"
     },
     {
       "gameId": "espn-401873089",
@@ -13407,7 +13407,7 @@
         }
       ],
       "interpretation": "Away team NYJ is a slight favorite (49% win probability, 0.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.521Z"
+      "generatedAt": "2026-10-04T14:30:19.317Z"
     },
     {
       "gameId": "espn-401873090",
@@ -13484,7 +13484,7 @@
         }
       ],
       "interpretation": "Home team JAX is a heavy favorite (100% win probability, 21.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:56.528Z"
+      "generatedAt": "2026-10-04T14:30:19.324Z"
     },
     {
       "gameId": "espn-401873091",
@@ -13561,7 +13561,7 @@
         }
       ],
       "interpretation": "Away team SEA is a slight favorite (51% win probability, 0.0-point edge over SF).",
-      "generatedAt": "2026-10-04T14:21:56.535Z"
+      "generatedAt": "2026-10-04T14:30:19.330Z"
     },
     {
       "gameId": "espn-401873092",
@@ -13638,7 +13638,7 @@
         }
       ],
       "interpretation": "Home team ARI is a slight favorite (53% win probability, 1.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:56.542Z"
+      "generatedAt": "2026-10-04T14:30:19.338Z"
     },
     {
       "gameId": "espn-401873093",
@@ -13715,7 +13715,7 @@
         }
       ],
       "interpretation": "Away team NE is a moderate favorite (74% win probability, 4.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:56.550Z"
+      "generatedAt": "2026-10-04T14:30:19.344Z"
     },
     {
       "gameId": "espn-401873094",
@@ -13792,7 +13792,7 @@
         }
       ],
       "interpretation": "Home team TB is a slight favorite (54% win probability, 1.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:56.557Z"
+      "generatedAt": "2026-10-04T14:30:19.351Z"
     },
     {
       "gameId": "espn-401873096",
@@ -13869,84 +13869,84 @@
         }
       ],
       "interpretation": "Home team LAR is a mild favorite (60% win probability, 2.0-point edge over KC).",
-      "generatedAt": "2026-10-04T14:21:56.566Z"
+      "generatedAt": "2026-10-04T14:30:19.357Z"
     },
     {
       "gameId": "espn-401873095",
-      "predictedHomeScore": 19.5,
-      "predictedAwayScore": 28.2,
-      "predictedSpread": 9,
-      "predictedTotal": 47.7,
-      "homeWinProb": 0.0999,
-      "awayWinProb": 0.9002,
-      "tieProb": 0.0263,
-      "lambdaHome": 19.53,
+      "predictedHomeScore": 16,
+      "predictedAwayScore": 28.3,
+      "predictedSpread": 12,
+      "predictedTotal": 44.3,
+      "homeWinProb": 0.0299,
+      "awayWinProb": 0.9701,
+      "tieProb": 0.0098,
+      "lambdaHome": 16.07,
       "lambdaAway": 28.3,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 18,
-          "awayScore": 31,
-          "count": 84,
-          "pct": 0.84
+          "homeScore": 14,
+          "awayScore": 29,
+          "count": 82,
+          "pct": 0.8200000000000001
+        },
+        {
+          "homeScore": 15,
+          "awayScore": 27,
+          "count": 79,
+          "pct": 0.79
+        },
+        {
+          "homeScore": 15,
+          "awayScore": 30,
+          "count": 76,
+          "pct": 0.76
+        },
+        {
+          "homeScore": 16,
+          "awayScore": 27,
+          "count": 76,
+          "pct": 0.76
         },
         {
           "homeScore": 17,
-          "awayScore": 29,
-          "count": 83,
-          "pct": 0.83
-        },
-        {
-          "homeScore": 20,
-          "awayScore": 27,
-          "count": 75,
-          "pct": 0.75
-        },
-        {
-          "homeScore": 19,
           "awayScore": 28,
-          "count": 75,
-          "pct": 0.75
-        },
-        {
-          "homeScore": 18,
-          "awayScore": 27,
           "count": 74,
           "pct": 0.74
         },
         {
-          "homeScore": 18,
-          "awayScore": 29,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 19,
-          "awayScore": 29,
-          "count": 71,
-          "pct": 0.7100000000000001
-        },
-        {
-          "homeScore": 19,
-          "awayScore": 30,
-          "count": 69,
-          "pct": 0.69
-        },
-        {
-          "homeScore": 22,
+          "homeScore": 13,
           "awayScore": 27,
-          "count": 67,
-          "pct": 0.67
+          "count": 73,
+          "pct": 0.73
         },
         {
-          "homeScore": 20,
-          "awayScore": 30,
-          "count": 66,
-          "pct": 0.66
+          "homeScore": 14,
+          "awayScore": 28,
+          "count": 73,
+          "pct": 0.73
+        },
+        {
+          "homeScore": 15,
+          "awayScore": 28,
+          "count": 73,
+          "pct": 0.73
+        },
+        {
+          "homeScore": 16,
+          "awayScore": 28,
+          "count": 73,
+          "pct": 0.73
+        },
+        {
+          "homeScore": 17,
+          "awayScore": 27,
+          "count": 71,
+          "pct": 0.7100000000000001
         }
       ],
-      "interpretation": "Away team SF is a solid favorite (90% win probability, 9.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:56.575Z"
+      "interpretation": "Away team SF is a heavy favorite (97% win probability, 12.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:19.364Z"
     },
     {
       "gameId": "espn-401873097",
@@ -14023,7 +14023,7 @@
         }
       ],
       "interpretation": "Away team CIN is a mild favorite (62% win probability, 2.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:56.585Z"
+      "generatedAt": "2026-10-04T14:30:19.372Z"
     },
     {
       "gameId": "espn-401873098",
@@ -14100,7 +14100,7 @@
         }
       ],
       "interpretation": "Away team DET is a moderate favorite (72% win probability, 4.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:56.596Z"
+      "generatedAt": "2026-10-04T14:30:19.379Z"
     },
     {
       "gameId": "espn-401873099",
@@ -14177,7 +14177,7 @@
         }
       ],
       "interpretation": "Home team NO is a mild favorite (65% win probability, 3.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:56.605Z"
+      "generatedAt": "2026-10-04T14:30:19.386Z"
     },
     {
       "gameId": "espn-401873100",
@@ -14254,7 +14254,7 @@
         }
       ],
       "interpretation": "Away team JAX is a moderate favorite (71% win probability, 4.0-point edge over CHI).",
-      "generatedAt": "2026-10-04T14:21:56.615Z"
+      "generatedAt": "2026-10-04T14:30:19.393Z"
     },
     {
       "gameId": "espn-401873101",
@@ -14331,7 +14331,7 @@
         }
       ],
       "interpretation": "Home team TB is a mild favorite (64% win probability, 3.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:56.624Z"
+      "generatedAt": "2026-10-04T14:30:19.400Z"
     },
     {
       "gameId": "espn-401873102",
@@ -14408,7 +14408,7 @@
         }
       ],
       "interpretation": "Away team WAS is a mild favorite (70% win probability, 3.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:56.635Z"
+      "generatedAt": "2026-10-04T14:30:19.407Z"
     },
     {
       "gameId": "espn-401873103",
@@ -14485,7 +14485,7 @@
         }
       ],
       "interpretation": "Home team DEN is a heavy favorite (98% win probability, 13.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.643Z"
+      "generatedAt": "2026-10-04T14:30:19.413Z"
     },
     {
       "gameId": "espn-401873104",
@@ -14562,7 +14562,7 @@
         }
       ],
       "interpretation": "Away team PHI is a moderate favorite (73% win probability, 4.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:56.653Z"
+      "generatedAt": "2026-10-04T14:30:19.420Z"
     },
     {
       "gameId": "espn-401873105",
@@ -14639,7 +14639,7 @@
         }
       ],
       "interpretation": "Home team NE is a slight favorite (57% win probability, 1.0-point edge over BUF).",
-      "generatedAt": "2026-10-04T14:21:56.662Z"
+      "generatedAt": "2026-10-04T14:30:19.426Z"
     },
     {
       "gameId": "espn-401873106",
@@ -14716,7 +14716,7 @@
         }
       ],
       "interpretation": "Home team MIN is a solid favorite (89% win probability, 8.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:56.671Z"
+      "generatedAt": "2026-10-04T14:30:19.433Z"
     },
     {
       "gameId": "espn-401873107",
@@ -14793,7 +14793,7 @@
         }
       ],
       "interpretation": "Away team HOU is a slight favorite (49% win probability, 0.0-point edge over PIT).",
-      "generatedAt": "2026-10-04T14:21:56.680Z"
+      "generatedAt": "2026-10-04T14:30:19.440Z"
     },
     {
       "gameId": "espn-401873108",
@@ -14870,7 +14870,7 @@
         }
       ],
       "interpretation": "Home team SEA is a heavy favorite (98% win probability, 16.0-point edge over DAL).",
-      "generatedAt": "2026-10-04T14:21:56.690Z"
+      "generatedAt": "2026-10-04T14:30:19.448Z"
     },
     {
       "gameId": "espn-401873109",
@@ -14947,7 +14947,7 @@
         }
       ],
       "interpretation": "Home team NE is a mild favorite (66% win probability, 2.0-point edge over MIN).",
-      "generatedAt": "2026-10-04T14:21:56.699Z"
+      "generatedAt": "2026-10-04T14:30:19.454Z"
     },
     {
       "gameId": "espn-401873110",
@@ -15024,7 +15024,7 @@
         }
       ],
       "interpretation": "Home team CLE is a slight favorite (59% win probability, 1.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:56.707Z"
+      "generatedAt": "2026-10-04T14:30:19.460Z"
     },
     {
       "gameId": "espn-401873111",
@@ -15101,7 +15101,7 @@
         }
       ],
       "interpretation": "Away team CHI is a heavy favorite (96% win probability, 12.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.718Z"
+      "generatedAt": "2026-10-04T14:30:19.467Z"
     },
     {
       "gameId": "espn-401873112",
@@ -15178,7 +15178,7 @@
         }
       ],
       "interpretation": "Away team DEN is a moderate favorite (83% win probability, 6.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:56.727Z"
+      "generatedAt": "2026-10-04T14:30:19.474Z"
     },
     {
       "gameId": "espn-401873113",
@@ -15255,7 +15255,7 @@
         }
       ],
       "interpretation": "Away team HOU is a moderate favorite (73% win probability, 4.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:56.737Z"
+      "generatedAt": "2026-10-04T14:30:19.481Z"
     },
     {
       "gameId": "espn-401873114",
@@ -15332,7 +15332,7 @@
         }
       ],
       "interpretation": "Home team PHI is a mild favorite (66% win probability, 3.0-point edge over IND).",
-      "generatedAt": "2026-10-04T14:21:56.746Z"
+      "generatedAt": "2026-10-04T14:30:19.488Z"
     },
     {
       "gameId": "espn-401873115",
@@ -15409,7 +15409,7 @@
         }
       ],
       "interpretation": "Home team CAR is a moderate favorite (71% win probability, 4.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:56.756Z"
+      "generatedAt": "2026-10-04T14:30:19.495Z"
     },
     {
       "gameId": "espn-401873116",
@@ -15486,7 +15486,7 @@
         }
       ],
       "interpretation": "Home team BAL is a solid favorite (88% win probability, 9.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:56.766Z"
+      "generatedAt": "2026-10-04T14:30:19.502Z"
     },
     {
       "gameId": "espn-401873117",
@@ -15563,7 +15563,7 @@
         }
       ],
       "interpretation": "Home team DET is a heavy favorite (99% win probability, 16.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:56.775Z"
+      "generatedAt": "2026-10-04T14:30:19.509Z"
     },
     {
       "gameId": "espn-401873118",
@@ -15640,7 +15640,7 @@
         }
       ],
       "interpretation": "Home team LV is a mild favorite (66% win probability, 3.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:56.783Z"
+      "generatedAt": "2026-10-04T14:30:19.515Z"
     },
     {
       "gameId": "espn-401873119",
@@ -15717,7 +15717,7 @@
         }
       ],
       "interpretation": "Away team KC is a moderate favorite (76% win probability, 5.0-point edge over CIN).",
-      "generatedAt": "2026-10-04T14:21:56.791Z"
+      "generatedAt": "2026-10-04T14:30:19.522Z"
     },
     {
       "gameId": "espn-401873120",
@@ -15794,84 +15794,84 @@
         }
       ],
       "interpretation": "Home team SF is a moderate favorite (74% win probability, 5.0-point edge over LAR).",
-      "generatedAt": "2026-10-04T14:21:56.800Z"
+      "generatedAt": "2026-10-04T14:30:19.529Z"
     },
     {
       "gameId": "espn-401873121",
       "predictedHomeScore": 29.4,
-      "predictedAwayScore": 14.7,
-      "predictedSpread": -15,
-      "predictedTotal": 44.1,
-      "homeWinProb": 0.9885,
-      "awayWinProb": 0.0115,
-      "tieProb": 0.0046,
+      "predictedAwayScore": 11.7,
+      "predictedSpread": -18,
+      "predictedTotal": 41.1,
+      "homeWinProb": 0.9978,
+      "awayWinProb": 0.0023,
+      "tieProb": 0.0015,
       "lambdaHome": 29.5,
-      "lambdaAway": 14.63,
+      "lambdaAway": 11.68,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 30,
-          "awayScore": 15,
-          "count": 86,
-          "pct": 0.86
+          "homeScore": 28,
+          "awayScore": 11,
+          "count": 98,
+          "pct": 0.98
         },
         {
-          "homeScore": 28,
-          "awayScore": 16,
+          "homeScore": 30,
+          "awayScore": 12,
+          "count": 88,
+          "pct": 0.88
+        },
+        {
+          "homeScore": 27,
+          "awayScore": 10,
+          "count": 85,
+          "pct": 0.8500000000000001
+        },
+        {
+          "homeScore": 26,
+          "awayScore": 12,
+          "count": 85,
+          "pct": 0.8500000000000001
+        },
+        {
+          "homeScore": 27,
+          "awayScore": 12,
           "count": 83,
           "pct": 0.83
         },
         {
-          "homeScore": 29,
-          "awayScore": 16,
+          "homeScore": 27,
+          "awayScore": 11,
+          "count": 82,
+          "pct": 0.8200000000000001
+        },
+        {
+          "homeScore": 27,
+          "awayScore": 13,
           "count": 82,
           "pct": 0.8200000000000001
         },
         {
           "homeScore": 29,
-          "awayScore": 14,
-          "count": 82,
-          "pct": 0.8200000000000001
-        },
-        {
-          "homeScore": 29,
-          "awayScore": 15,
-          "count": 80,
-          "pct": 0.8
-        },
-        {
-          "homeScore": 28,
-          "awayScore": 12,
-          "count": 76,
-          "pct": 0.76
-        },
-        {
-          "homeScore": 28,
-          "awayScore": 13,
-          "count": 76,
-          "pct": 0.76
-        },
-        {
-          "homeScore": 29,
-          "awayScore": 13,
-          "count": 76,
-          "pct": 0.76
+          "awayScore": 10,
+          "count": 81,
+          "pct": 0.8099999999999999
         },
         {
           "homeScore": 26,
-          "awayScore": 14,
-          "count": 76,
-          "pct": 0.76
+          "awayScore": 10,
+          "count": 81,
+          "pct": 0.8099999999999999
         },
         {
-          "homeScore": 30,
-          "awayScore": 13,
-          "count": 74,
-          "pct": 0.74
+          "homeScore": 31,
+          "awayScore": 10,
+          "count": 79,
+          "pct": 0.79
         }
       ],
-      "interpretation": "Home team SEA is a heavy favorite (99% win probability, 15.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:56.807Z"
+      "interpretation": "Home team SEA is a heavy favorite (100% win probability, 18.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:19.535Z"
     },
     {
       "gameId": "espn-401873122",
@@ -15948,7 +15948,7 @@
         }
       ],
       "interpretation": "Away team BUF is a solid favorite (87% win probability, 8.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:56.815Z"
+      "generatedAt": "2026-10-04T14:30:19.543Z"
     },
     {
       "gameId": "espn-401873123",
@@ -16025,7 +16025,7 @@
         }
       ],
       "interpretation": "Home team JAX is a heavy favorite (98% win probability, 14.0-point edge over PIT).",
-      "generatedAt": "2026-10-04T14:21:56.822Z"
+      "generatedAt": "2026-10-04T14:30:19.549Z"
     },
     {
       "gameId": "espn-401873124",
@@ -16102,7 +16102,7 @@
         }
       ],
       "interpretation": "Away team SF is a solid favorite (89% win probability, 8.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:56.830Z"
+      "generatedAt": "2026-10-04T14:30:19.555Z"
     },
     {
       "gameId": "espn-401873125",
@@ -16179,7 +16179,7 @@
         }
       ],
       "interpretation": "Away team SEA is a moderate favorite (84% win probability, 6.0-point edge over PHI).",
-      "generatedAt": "2026-10-04T14:21:56.837Z"
+      "generatedAt": "2026-10-04T14:30:19.561Z"
     },
     {
       "gameId": "espn-401873126",
@@ -16256,7 +16256,7 @@
         }
       ],
       "interpretation": "Home team BUF is a moderate favorite (69% win probability, 4.0-point edge over CHI).",
-      "generatedAt": "2026-10-04T14:21:56.845Z"
+      "generatedAt": "2026-10-04T14:30:19.601Z"
     },
     {
       "gameId": "espn-401873127",
@@ -16333,7 +16333,7 @@
         }
       ],
       "interpretation": "Home team WAS is a slight favorite (57% win probability, 1.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:56.853Z"
+      "generatedAt": "2026-10-04T14:30:19.618Z"
     },
     {
       "gameId": "espn-401873128",
@@ -16410,7 +16410,7 @@
         }
       ],
       "interpretation": "Away team BAL is a slight favorite (57% win probability, 1.0-point edge over PIT).",
-      "generatedAt": "2026-10-04T14:21:56.861Z"
+      "generatedAt": "2026-10-04T14:30:19.627Z"
     },
     {
       "gameId": "espn-401873129",
@@ -16487,84 +16487,84 @@
         }
       ],
       "interpretation": "Home team CAR is a slight favorite (57% win probability, 1.0-point edge over CIN).",
-      "generatedAt": "2026-10-04T14:21:56.869Z"
+      "generatedAt": "2026-10-04T14:30:19.635Z"
     },
     {
       "gameId": "espn-401873130",
-      "predictedHomeScore": 22.3,
-      "predictedAwayScore": 18.4,
-      "predictedSpread": -4,
-      "predictedTotal": 40.7,
-      "homeWinProb": 0.7328,
-      "awayWinProb": 0.2673,
-      "tieProb": 0.0523,
-      "lambdaHome": 22.2,
+      "predictedHomeScore": 18.2,
+      "predictedAwayScore": 18.3,
+      "predictedSpread": 0,
+      "predictedTotal": 36.6,
+      "homeWinProb": 0.4971,
+      "awayWinProb": 0.5029,
+      "tieProb": 0.0664,
+      "lambdaHome": 18.2,
       "lambdaAway": 18.3,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 20,
-          "awayScore": 18,
-          "count": 95,
-          "pct": 0.95
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 20,
-          "count": 91,
-          "pct": 0.91
-        },
-        {
-          "homeScore": 23,
+          "homeScore": 19,
           "awayScore": 19,
+          "count": 93,
+          "pct": 0.9299999999999999
+        },
+        {
+          "homeScore": 20,
+          "awayScore": 17,
+          "count": 88,
+          "pct": 0.88
+        },
+        {
+          "homeScore": 19,
+          "awayScore": 17,
+          "count": 88,
+          "pct": 0.88
+        },
+        {
+          "homeScore": 18,
+          "awayScore": 18,
+          "count": 88,
+          "pct": 0.88
+        },
+        {
+          "homeScore": 16,
+          "awayScore": 18,
+          "count": 87,
+          "pct": 0.8699999999999999
+        },
+        {
+          "homeScore": 16,
+          "awayScore": 17,
+          "count": 85,
+          "pct": 0.8500000000000001
+        },
+        {
+          "homeScore": 18,
+          "awayScore": 17,
+          "count": 85,
+          "pct": 0.8500000000000001
+        },
+        {
+          "homeScore": 15,
+          "awayScore": 19,
+          "count": 85,
+          "pct": 0.8500000000000001
+        },
+        {
+          "homeScore": 18,
+          "awayScore": 21,
           "count": 84,
           "pct": 0.84
         },
         {
-          "homeScore": 22,
+          "homeScore": 17,
           "awayScore": 19,
-          "count": 82,
-          "pct": 0.8200000000000001
-        },
-        {
-          "homeScore": 21,
-          "awayScore": 18,
-          "count": 79,
-          "pct": 0.79
-        },
-        {
-          "homeScore": 21,
-          "awayScore": 19,
-          "count": 79,
-          "pct": 0.79
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 17,
-          "count": 78,
-          "pct": 0.7799999999999999
-        },
-        {
-          "homeScore": 19,
-          "awayScore": 19,
-          "count": 78,
-          "pct": 0.7799999999999999
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 18,
-          "count": 78,
-          "pct": 0.7799999999999999
-        },
-        {
-          "homeScore": 24,
-          "awayScore": 18,
-          "count": 77,
-          "pct": 0.77
+          "count": 81,
+          "pct": 0.8099999999999999
         }
       ],
-      "interpretation": "Home team NYG is a moderate favorite (73% win probability, 4.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:56.876Z"
+      "interpretation": "Away team CLE is a slight favorite (50% win probability, 0.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:19.642Z"
     },
     {
       "gameId": "espn-401873131",
@@ -16641,7 +16641,7 @@
         }
       ],
       "interpretation": "Away team IND is a solid favorite (90% win probability, 8.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:56.884Z"
+      "generatedAt": "2026-10-04T14:30:19.650Z"
     },
     {
       "gameId": "espn-401873132",
@@ -16718,7 +16718,7 @@
         }
       ],
       "interpretation": "Away team JAX is a moderate favorite (82% win probability, 6.0-point edge over HOU).",
-      "generatedAt": "2026-10-04T14:21:56.891Z"
+      "generatedAt": "2026-10-04T14:30:19.656Z"
     },
     {
       "gameId": "espn-401873133",
@@ -16795,7 +16795,7 @@
         }
       ],
       "interpretation": "Home team GB is a solid favorite (89% win probability, 8.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:56.899Z"
+      "generatedAt": "2026-10-04T14:30:19.664Z"
     },
     {
       "gameId": "espn-401873134",
@@ -16872,7 +16872,7 @@
         }
       ],
       "interpretation": "Home team TB is a mild favorite (62% win probability, 2.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:56.906Z"
+      "generatedAt": "2026-10-04T14:30:19.671Z"
     },
     {
       "gameId": "espn-401873135",
@@ -16949,7 +16949,7 @@
         }
       ],
       "interpretation": "Home team ARI is a mild favorite (65% win probability, 3.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:56.914Z"
+      "generatedAt": "2026-10-04T14:30:19.678Z"
     },
     {
       "gameId": "espn-401873136",
@@ -17026,7 +17026,7 @@
         }
       ],
       "interpretation": "Home team LAR is a heavy favorite (92% win probability, 11.0-point edge over DAL).",
-      "generatedAt": "2026-10-04T14:21:56.923Z"
+      "generatedAt": "2026-10-04T14:30:19.687Z"
     },
     {
       "gameId": "espn-401873137",
@@ -17103,7 +17103,7 @@
         }
       ],
       "interpretation": "Away team DEN is a mild favorite (61% win probability, 2.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:56.930Z"
+      "generatedAt": "2026-10-04T14:30:19.693Z"
     },
     {
       "gameId": "espn-401873138",
@@ -17180,7 +17180,7 @@
         }
       ],
       "interpretation": "Home team MIN is a moderate favorite (79% win probability, 6.0-point edge over DET).",
-      "generatedAt": "2026-10-04T14:21:56.938Z"
+      "generatedAt": "2026-10-04T14:30:19.701Z"
     },
     {
       "gameId": "espn-401873139",
@@ -17257,7 +17257,7 @@
         }
       ],
       "interpretation": "Home team KC is a moderate favorite (72% win probability, 4.0-point edge over NE).",
-      "generatedAt": "2026-10-04T14:21:56.945Z"
+      "generatedAt": "2026-10-04T14:30:19.706Z"
     },
     {
       "gameId": "espn-401873140",
@@ -17334,7 +17334,7 @@
         }
       ],
       "interpretation": "Home team PHI is a slight favorite (58% win probability, 1.0-point edge over HOU).",
-      "generatedAt": "2026-10-04T14:21:56.952Z"
+      "generatedAt": "2026-10-04T14:30:19.713Z"
     },
     {
       "gameId": "espn-401873141",
@@ -17411,7 +17411,7 @@
         }
       ],
       "interpretation": "Home team CHI is a heavy favorite (94% win probability, 11.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:56.960Z"
+      "generatedAt": "2026-10-04T14:30:19.720Z"
     },
     {
       "gameId": "espn-401873142",
@@ -17488,7 +17488,7 @@
         }
       ],
       "interpretation": "Away team BUF is a mild favorite (60% win probability, 2.0-point edge over DEN).",
-      "generatedAt": "2026-10-04T14:21:56.967Z"
+      "generatedAt": "2026-10-04T14:30:19.727Z"
     },
     {
       "gameId": "espn-401873143",
@@ -17565,7 +17565,7 @@
         }
       ],
       "interpretation": "Home team SEA is a solid favorite (85% win probability, 7.0-point edge over LAR).",
-      "generatedAt": "2026-10-04T14:21:56.975Z"
+      "generatedAt": "2026-10-04T14:30:19.734Z"
     },
     {
       "gameId": "espn-401873144",
@@ -17642,7 +17642,7 @@
         }
       ],
       "interpretation": "Home team PIT is a mild favorite (67% win probability, 3.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:56.982Z"
+      "generatedAt": "2026-10-04T14:30:19.740Z"
     },
     {
       "gameId": "espn-401873145",
@@ -17719,7 +17719,7 @@
         }
       ],
       "interpretation": "Home team IND is a mild favorite (65% win probability, 3.0-point edge over CIN).",
-      "generatedAt": "2026-10-04T14:21:56.991Z"
+      "generatedAt": "2026-10-04T14:30:19.747Z"
     },
     {
       "gameId": "espn-401873146",
@@ -17796,7 +17796,7 @@
         }
       ],
       "interpretation": "Home team ATL is a mild favorite (59% win probability, 2.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:56.999Z"
+      "generatedAt": "2026-10-04T14:30:19.754Z"
     },
     {
       "gameId": "espn-401873147",
@@ -17873,7 +17873,7 @@
         }
       ],
       "interpretation": "Home team MIN is a heavy favorite (96% win probability, 12.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:57.006Z"
+      "generatedAt": "2026-10-04T14:30:19.761Z"
     },
     {
       "gameId": "espn-401873148",
@@ -17950,7 +17950,7 @@
         }
       ],
       "interpretation": "Home team NO is a moderate favorite (81% win probability, 6.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:57.014Z"
+      "generatedAt": "2026-10-04T14:30:19.767Z"
     },
     {
       "gameId": "espn-401873149",
@@ -18027,7 +18027,7 @@
         }
       ],
       "interpretation": "Home team BAL is a heavy favorite (93% win probability, 10.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:57.022Z"
+      "generatedAt": "2026-10-04T14:30:19.774Z"
     },
     {
       "gameId": "espn-401873150",
@@ -18104,7 +18104,7 @@
         }
       ],
       "interpretation": "Away team LAC is a mild favorite (66% win probability, 3.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:57.029Z"
+      "generatedAt": "2026-10-04T14:30:19.781Z"
     },
     {
       "gameId": "espn-401873151",
@@ -18181,7 +18181,7 @@
         }
       ],
       "interpretation": "Away team NE is a solid favorite (90% win probability, 8.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:57.036Z"
+      "generatedAt": "2026-10-04T14:30:19.788Z"
     },
     {
       "gameId": "espn-401873152",
@@ -18258,7 +18258,7 @@
         }
       ],
       "interpretation": "Home team LV is a solid favorite (93% win probability, 9.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:57.043Z"
+      "generatedAt": "2026-10-04T14:30:19.795Z"
     },
     {
       "gameId": "espn-401873153",
@@ -18335,7 +18335,7 @@
         }
       ],
       "interpretation": "Home team KC is a slight favorite (55% win probability, 1.0-point edge over SF).",
-      "generatedAt": "2026-10-04T14:21:57.050Z"
+      "generatedAt": "2026-10-04T14:30:19.802Z"
     },
     {
       "gameId": "espn-401873154",
@@ -18412,84 +18412,84 @@
         }
       ],
       "interpretation": "Away team JAX is a heavy favorite (94% win probability, 12.0-point edge over DAL).",
-      "generatedAt": "2026-10-04T14:21:57.059Z"
+      "generatedAt": "2026-10-04T14:30:19.810Z"
     },
     {
       "gameId": "espn-401873155",
       "predictedHomeScore": 31.7,
-      "predictedAwayScore": 23.4,
-      "predictedSpread": -8,
-      "predictedTotal": 55.1,
-      "homeWinProb": 0.8693,
-      "awayWinProb": 0.1308,
-      "tieProb": 0.0287,
+      "predictedAwayScore": 18.6,
+      "predictedSpread": -13,
+      "predictedTotal": 50.4,
+      "homeWinProb": 0.9687,
+      "awayWinProb": 0.0313,
+      "tieProb": 0.0102,
       "lambdaHome": 31.7,
-      "lambdaAway": 23.33,
+      "lambdaAway": 18.62,
       "simulations": 10000,
       "sampleOutcomes": [
         {
+          "homeScore": 32,
+          "awayScore": 19,
+          "count": 80,
+          "pct": 0.8
+        },
+        {
+          "homeScore": 30,
+          "awayScore": 19,
+          "count": 77,
+          "pct": 0.77
+        },
+        {
           "homeScore": 31,
-          "awayScore": 24,
-          "count": 69,
-          "pct": 0.69
+          "awayScore": 19,
+          "count": 72,
+          "pct": 0.72
         },
         {
           "homeScore": 34,
-          "awayScore": 22,
+          "awayScore": 17,
+          "count": 68,
+          "pct": 0.6799999999999999
+        },
+        {
+          "homeScore": 32,
+          "awayScore": 16,
           "count": 68,
           "pct": 0.6799999999999999
         },
         {
           "homeScore": 31,
-          "awayScore": 22,
+          "awayScore": 18,
+          "count": 67,
+          "pct": 0.67
+        },
+        {
+          "homeScore": 30,
+          "awayScore": 18,
+          "count": 67,
+          "pct": 0.67
+        },
+        {
+          "homeScore": 30,
+          "awayScore": 20,
+          "count": 66,
+          "pct": 0.66
+        },
+        {
+          "homeScore": 31,
+          "awayScore": 20,
           "count": 65,
           "pct": 0.65
         },
         {
-          "homeScore": 31,
-          "awayScore": 23,
+          "homeScore": 34,
+          "awayScore": 19,
           "count": 65,
           "pct": 0.65
-        },
-        {
-          "homeScore": 31,
-          "awayScore": 25,
-          "count": 60,
-          "pct": 0.6
-        },
-        {
-          "homeScore": 32,
-          "awayScore": 24,
-          "count": 60,
-          "pct": 0.6
-        },
-        {
-          "homeScore": 30,
-          "awayScore": 22,
-          "count": 59,
-          "pct": 0.59
-        },
-        {
-          "homeScore": 33,
-          "awayScore": 23,
-          "count": 59,
-          "pct": 0.59
-        },
-        {
-          "homeScore": 31,
-          "awayScore": 21,
-          "count": 59,
-          "pct": 0.59
-        },
-        {
-          "homeScore": 30,
-          "awayScore": 21,
-          "count": 59,
-          "pct": 0.59
         }
       ],
-      "interpretation": "Home team DET is a solid favorite (87% win probability, 8.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:57.067Z"
+      "interpretation": "Home team DET is a heavy favorite (97% win probability, 13.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:19.817Z"
     },
     {
       "gameId": "espn-401873156",
@@ -18566,7 +18566,7 @@
         }
       ],
       "interpretation": "Away team BAL is a mild favorite (58% win probability, 2.0-point edge over CIN).",
-      "generatedAt": "2026-10-04T14:21:57.075Z"
+      "generatedAt": "2026-10-04T14:30:19.826Z"
     },
     {
       "gameId": "espn-401873157",
@@ -18643,7 +18643,7 @@
         }
       ],
       "interpretation": "Home team NE is a moderate favorite (77% win probability, 5.0-point edge over DEN).",
-      "generatedAt": "2026-10-04T14:21:57.083Z"
+      "generatedAt": "2026-10-04T14:30:19.833Z"
     },
     {
       "gameId": "espn-401873158",
@@ -18720,7 +18720,7 @@
         }
       ],
       "interpretation": "Away team KC is a moderate favorite (82% win probability, 6.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:57.090Z"
+      "generatedAt": "2026-10-04T14:30:19.839Z"
     },
     {
       "gameId": "espn-401873159",
@@ -18797,7 +18797,7 @@
         }
       ],
       "interpretation": "Away team LAR is a solid favorite (84% win probability, 7.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:57.097Z"
+      "generatedAt": "2026-10-04T14:30:19.847Z"
     },
     {
       "gameId": "espn-401873160",
@@ -18874,7 +18874,7 @@
         }
       ],
       "interpretation": "Home team JAX is a heavy favorite (100% win probability, 20.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:57.105Z"
+      "generatedAt": "2026-10-04T14:30:19.855Z"
     },
     {
       "gameId": "espn-401873161",
@@ -18951,7 +18951,7 @@
         }
       ],
       "interpretation": "Away team BUF is a heavy favorite (98% win probability, 15.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:57.113Z"
+      "generatedAt": "2026-10-04T14:30:19.863Z"
     },
     {
       "gameId": "espn-401873162",
@@ -19028,7 +19028,7 @@
         }
       ],
       "interpretation": "Away team IND is a mild favorite (64% win probability, 2.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:57.121Z"
+      "generatedAt": "2026-10-04T14:30:19.870Z"
     },
     {
       "gameId": "espn-401873163",
@@ -19105,7 +19105,7 @@
         }
       ],
       "interpretation": "Away team MIN is a solid favorite (88% win probability, 8.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:57.129Z"
+      "generatedAt": "2026-10-04T14:30:19.877Z"
     },
     {
       "gameId": "espn-401873164",
@@ -19182,84 +19182,84 @@
         }
       ],
       "interpretation": "Home team ATL is a mild favorite (60% win probability, 2.0-point edge over NO).",
-      "generatedAt": "2026-10-04T14:21:57.136Z"
+      "generatedAt": "2026-10-04T14:30:19.883Z"
     },
     {
       "gameId": "espn-401873165",
-      "predictedHomeScore": 30.7,
-      "predictedAwayScore": 25,
-      "predictedSpread": -6,
-      "predictedTotal": 55.7,
-      "homeWinProb": 0.7755,
-      "awayWinProb": 0.2246,
-      "tieProb": 0.0387,
+      "predictedHomeScore": 30.8,
+      "predictedAwayScore": 19.9,
+      "predictedSpread": -11,
+      "predictedTotal": 50.6,
+      "homeWinProb": 0.9375,
+      "awayWinProb": 0.0625,
+      "tieProb": 0.0174,
       "lambdaHome": 30.7,
-      "lambdaAway": 24.97,
+      "lambdaAway": 19.92,
       "simulations": 10000,
       "sampleOutcomes": [
         {
           "homeScore": 30,
-          "awayScore": 24,
+          "awayScore": 22,
+          "count": 72,
+          "pct": 0.72
+        },
+        {
+          "homeScore": 31,
+          "awayScore": 19,
           "count": 70,
           "pct": 0.7000000000000001
         },
         {
+          "homeScore": 31,
+          "awayScore": 21,
+          "count": 69,
+          "pct": 0.69
+        },
+        {
           "homeScore": 29,
-          "awayScore": 24,
-          "count": 67,
-          "pct": 0.67
+          "awayScore": 17,
+          "count": 69,
+          "pct": 0.69
+        },
+        {
+          "homeScore": 32,
+          "awayScore": 20,
+          "count": 68,
+          "pct": 0.6799999999999999
         },
         {
           "homeScore": 30,
-          "awayScore": 25,
-          "count": 67,
-          "pct": 0.67
-        },
-        {
-          "homeScore": 30,
-          "awayScore": 23,
-          "count": 67,
-          "pct": 0.67
+          "awayScore": 19,
+          "count": 68,
+          "pct": 0.6799999999999999
         },
         {
           "homeScore": 27,
-          "awayScore": 25,
-          "count": 62,
-          "pct": 0.62
+          "awayScore": 19,
+          "count": 66,
+          "pct": 0.66
         },
         {
           "homeScore": 31,
-          "awayScore": 25,
-          "count": 61,
-          "pct": 0.61
+          "awayScore": 20,
+          "count": 66,
+          "pct": 0.66
         },
         {
-          "homeScore": 28,
-          "awayScore": 25,
-          "count": 60,
-          "pct": 0.6
+          "homeScore": 34,
+          "awayScore": 19,
+          "count": 65,
+          "pct": 0.65
         },
         {
           "homeScore": 30,
-          "awayScore": 28,
-          "count": 60,
-          "pct": 0.6
-        },
-        {
-          "homeScore": 33,
-          "awayScore": 24,
-          "count": 60,
-          "pct": 0.6
-        },
-        {
-          "homeScore": 31,
-          "awayScore": 26,
-          "count": 58,
-          "pct": 0.58
+          "awayScore": 18,
+          "count": 64,
+          "pct": 0.64
         }
       ],
-      "interpretation": "Home team DAL is a moderate favorite (78% win probability, 6.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:57.144Z"
+      "interpretation": "Home team DAL is a heavy favorite (94% win probability, 11.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:19.891Z"
     },
     {
       "gameId": "espn-401873166",
@@ -19336,7 +19336,7 @@
         }
       ],
       "interpretation": "Away team PIT is a moderate favorite (83% win probability, 6.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:57.152Z"
+      "generatedAt": "2026-10-04T14:30:19.898Z"
     },
     {
       "gameId": "espn-401873167",
@@ -19413,7 +19413,7 @@
         }
       ],
       "interpretation": "Away team SEA is a solid favorite (91% win probability, 9.0-point edge over CAR).",
-      "generatedAt": "2026-10-04T14:21:57.160Z"
+      "generatedAt": "2026-10-04T14:30:19.905Z"
     },
     {
       "gameId": "espn-401873168",
@@ -19490,7 +19490,7 @@
         }
       ],
       "interpretation": "Away team LV is a slight favorite (58% win probability, 1.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:57.168Z"
+      "generatedAt": "2026-10-04T14:30:19.912Z"
     },
     {
       "gameId": "espn-401873169",
@@ -19567,7 +19567,7 @@
         }
       ],
       "interpretation": "Home team CHI is a moderate favorite (79% win probability, 6.0-point edge over DET).",
-      "generatedAt": "2026-10-04T14:21:57.177Z"
+      "generatedAt": "2026-10-04T14:30:19.920Z"
     },
     {
       "gameId": "espn-401873170",
@@ -19644,7 +19644,7 @@
         }
       ],
       "interpretation": "Home team SF is a heavy favorite (93% win probability, 10.0-point edge over PHI).",
-      "generatedAt": "2026-10-04T14:21:57.185Z"
+      "generatedAt": "2026-10-04T14:30:19.927Z"
     },
     {
       "gameId": "espn-401873171",
@@ -19721,7 +19721,7 @@
         }
       ],
       "interpretation": "Away team HOU is a mild favorite (61% win probability, 2.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:57.192Z"
+      "generatedAt": "2026-10-04T14:30:19.934Z"
     },
     {
       "gameId": "espn-401873172",
@@ -19798,7 +19798,7 @@
         }
       ],
       "interpretation": "Home team CAR is a moderate favorite (76% win probability, 5.0-point edge over ATL).",
-      "generatedAt": "2026-10-04T14:21:57.200Z"
+      "generatedAt": "2026-10-04T14:30:19.941Z"
     },
     {
       "gameId": "espn-401873173",
@@ -19875,7 +19875,7 @@
         }
       ],
       "interpretation": "Home team MIN is a mild favorite (63% win probability, 2.0-point edge over CHI).",
-      "generatedAt": "2026-10-04T14:21:57.207Z"
+      "generatedAt": "2026-10-04T14:30:19.947Z"
     },
     {
       "gameId": "espn-401873174",
@@ -19952,7 +19952,7 @@
         }
       ],
       "interpretation": "Home team CIN is a solid favorite (84% win probability, 7.0-point edge over CLE).",
-      "generatedAt": "2026-10-04T14:21:57.215Z"
+      "generatedAt": "2026-10-04T14:30:19.954Z"
     },
     {
       "gameId": "espn-401873175",
@@ -20029,7 +20029,7 @@
         }
       ],
       "interpretation": "Away team DAL is a moderate favorite (67% win probability, 4.0-point edge over WAS).",
-      "generatedAt": "2026-10-04T14:21:57.224Z"
+      "generatedAt": "2026-10-04T14:30:19.962Z"
     },
     {
       "gameId": "espn-401873176",
@@ -20106,7 +20106,7 @@
         }
       ],
       "interpretation": "Away team DET is a moderate favorite (68% win probability, 4.0-point edge over GB).",
-      "generatedAt": "2026-10-04T14:21:57.233Z"
+      "generatedAt": "2026-10-04T14:30:19.969Z"
     },
     {
       "gameId": "espn-401873177",
@@ -20183,7 +20183,7 @@
         }
       ],
       "interpretation": "Away team JAX is a heavy favorite (92% win probability, 10.0-point edge over IND).",
-      "generatedAt": "2026-10-04T14:21:57.241Z"
+      "generatedAt": "2026-10-04T14:30:19.976Z"
     },
     {
       "gameId": "espn-401873178",
@@ -20260,7 +20260,7 @@
         }
       ],
       "interpretation": "Home team KC is a heavy favorite (95% win probability, 10.0-point edge over LV).",
-      "generatedAt": "2026-10-04T14:21:57.248Z"
+      "generatedAt": "2026-10-04T14:30:19.983Z"
     },
     {
       "gameId": "espn-401873179",
@@ -20337,7 +20337,7 @@
         }
       ],
       "interpretation": "Home team DEN is a solid favorite (87% win probability, 7.0-point edge over LAC).",
-      "generatedAt": "2026-10-04T14:21:57.255Z"
+      "generatedAt": "2026-10-04T14:30:19.989Z"
     },
     {
       "gameId": "espn-401873180",
@@ -20414,7 +20414,7 @@
         }
       ],
       "interpretation": "Home team NE is a heavy favorite (99% win probability, 15.0-point edge over MIA).",
-      "generatedAt": "2026-10-04T14:21:57.261Z"
+      "generatedAt": "2026-10-04T14:30:19.995Z"
     },
     {
       "gameId": "espn-401873181",
@@ -20491,84 +20491,84 @@
         }
       ],
       "interpretation": "Home team BUF is a heavy favorite (99% win probability, 17.0-point edge over NYJ).",
-      "generatedAt": "2026-10-04T14:21:57.269Z"
+      "generatedAt": "2026-10-04T14:30:20.002Z"
     },
     {
       "gameId": "espn-401873182",
-      "predictedHomeScore": 20.1,
+      "predictedHomeScore": 16.6,
       "predictedAwayScore": 20.8,
-      "predictedSpread": 1,
-      "predictedTotal": 41,
-      "homeWinProb": 0.4556,
-      "awayWinProb": 0.5445,
-      "tieProb": 0.0585,
-      "lambdaHome": 20.13,
+      "predictedSpread": 4,
+      "predictedTotal": 37.4,
+      "homeWinProb": 0.2527,
+      "awayWinProb": 0.7474,
+      "tieProb": 0.0525,
+      "lambdaHome": 16.55,
       "lambdaAway": 20.8,
       "simulations": 10000,
       "sampleOutcomes": [
         {
-          "homeScore": 19,
-          "awayScore": 20,
-          "count": 100,
-          "pct": 1
+          "homeScore": 16,
+          "awayScore": 23,
+          "count": 90,
+          "pct": 0.8999999999999999
         },
         {
-          "homeScore": 20,
+          "homeScore": 14,
+          "awayScore": 20,
+          "count": 89,
+          "pct": 0.89
+        },
+        {
+          "homeScore": 17,
+          "awayScore": 21,
+          "count": 88,
+          "pct": 0.88
+        },
+        {
+          "homeScore": 16,
+          "awayScore": 18,
+          "count": 88,
+          "pct": 0.88
+        },
+        {
+          "homeScore": 17,
+          "awayScore": 19,
+          "count": 84,
+          "pct": 0.84
+        },
+        {
+          "homeScore": 16,
+          "awayScore": 20,
+          "count": 84,
+          "pct": 0.84
+        },
+        {
+          "homeScore": 17,
+          "awayScore": 22,
+          "count": 83,
+          "pct": 0.83
+        },
+        {
+          "homeScore": 16,
+          "awayScore": 21,
+          "count": 83,
+          "pct": 0.83
+        },
+        {
+          "homeScore": 15,
           "awayScore": 21,
           "count": 82,
           "pct": 0.8200000000000001
         },
         {
-          "homeScore": 20,
-          "awayScore": 22,
-          "count": 81,
-          "pct": 0.8099999999999999
-        },
-        {
-          "homeScore": 19,
+          "homeScore": 17,
           "awayScore": 18,
-          "count": 81,
-          "pct": 0.8099999999999999
-        },
-        {
-          "homeScore": 21,
-          "awayScore": 20,
-          "count": 78,
-          "pct": 0.7799999999999999
-        },
-        {
-          "homeScore": 22,
-          "awayScore": 20,
-          "count": 75,
-          "pct": 0.75
-        },
-        {
-          "homeScore": 18,
-          "awayScore": 19,
-          "count": 75,
-          "pct": 0.75
-        },
-        {
-          "homeScore": 19,
-          "awayScore": 22,
-          "count": 72,
-          "pct": 0.72
-        },
-        {
-          "homeScore": 18,
-          "awayScore": 18,
-          "count": 72,
-          "pct": 0.72
-        },
-        {
-          "homeScore": 20,
-          "awayScore": 19,
-          "count": 72,
-          "pct": 0.72
+          "count": 82,
+          "pct": 0.8200000000000001
         }
       ],
-      "interpretation": "Away team PHI is a slight favorite (54% win probability, 1.0-point edge over NYG).",
-      "generatedAt": "2026-10-04T14:21:57.276Z"
+      "interpretation": "Away team PHI is a moderate favorite (75% win probability, 4.0-point edge over NYG).",
+      "generatedAt": "2026-10-04T14:30:20.008Z"
     },
     {
       "gameId": "espn-401873183",
@@ -20645,7 +20645,7 @@
         }
       ],
       "interpretation": "Home team BAL is a moderate favorite (80% win probability, 6.0-point edge over PIT).",
-      "generatedAt": "2026-10-04T14:21:57.284Z"
+      "generatedAt": "2026-10-04T14:30:20.015Z"
     },
     {
       "gameId": "espn-401873184",
@@ -20722,7 +20722,7 @@
         }
       ],
       "interpretation": "Away team SF is a heavy favorite (97% win probability, 14.0-point edge over ARI).",
-      "generatedAt": "2026-10-04T14:21:57.292Z"
+      "generatedAt": "2026-10-04T14:30:20.022Z"
     },
     {
       "gameId": "espn-401873185",
@@ -20799,7 +20799,7 @@
         }
       ],
       "interpretation": "Away team SEA is a mild favorite (62% win probability, 2.0-point edge over LAR).",
-      "generatedAt": "2026-10-04T14:21:57.300Z"
+      "generatedAt": "2026-10-04T14:30:20.028Z"
     },
     {
       "gameId": "espn-401873186",
@@ -20876,7 +20876,7 @@
         }
       ],
       "interpretation": "Home team NO is a mild favorite (64% win probability, 3.0-point edge over TB).",
-      "generatedAt": "2026-10-04T14:21:57.308Z"
+      "generatedAt": "2026-10-04T14:30:20.035Z"
     },
     {
       "gameId": "espn-401873187",
@@ -20953,7 +20953,7 @@
         }
       ],
       "interpretation": "Home team HOU is a heavy favorite (98% win probability, 12.0-point edge over TEN).",
-      "generatedAt": "2026-10-04T14:21:57.315Z"
+      "generatedAt": "2026-10-04T14:30:20.041Z"
     }
   ]
 }

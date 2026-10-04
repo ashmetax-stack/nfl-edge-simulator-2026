@@ -181,6 +181,11 @@ export function TeamStatsTable({ teams, leagueAvgPpg }: TeamStatsTableProps) {
                           ? ` · ${(team.blendWeight * 100).toFixed(0)}% YTD`
                           : ""}
                       </p>
+                      {team.ratingNote ? (
+                        <p className="mt-0.5 max-w-[16rem] text-[11px] leading-snug text-amber-800 dark:text-amber-400">
+                          {team.ratingNote}
+                        </p>
+                      ) : null}
                     </div>
                   </div>
                 </TableCell>

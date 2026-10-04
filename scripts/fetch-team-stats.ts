@@ -20,10 +20,16 @@ import {
   round1,
   round2,
 } from "../src/lib/stats-blend";
-import type { Team, TeamStatsMeta, TeamsFile } from "../src/lib/types";
+import type {
+  RatingOverridesFile,
+  Team,
+  TeamStatsMeta,
+  TeamsFile,
+} from "../src/lib/types";
 
 const ROOT = join(__dirname, "..");
 const TEAMS_PATH = join(ROOT, "src", "data", "teams.json");
+const OVERRIDES_PATH = join(ROOT, "src", "data", "rating-overrides.json");
 
 /** ESPN standings abbreviations → our team ids */
 const ESPN_ABBR_TO_ID: Record<string, string> = {
@@ -239,8 +245,9 @@ async function main() {
       useCurrent ? gp : 0
     );
 
+    const { ratingNote: _drop, ...rest } = team;
     return {
-      ...team,
+      ...rest,
       offensePpg,
       defensePapg,
       priorOffensePpg: round1(prior.offensePpg),
@@ -255,6 +262,38 @@ async function main() {
   const leagueAvgPpg = round1(
     updatedTeams.reduce((s, t) => s + t.offensePpg, 0) / updatedTeams.length
   );
+
+  let overrides: RatingOverridesFile["teams"] = {};
+  try {
+    const raw = JSON.parse(
+      readFileSync(OVERRIDES_PATH, "utf8")
+    ) as RatingOverridesFile;
+    overrides = raw.teams ?? {};
+  } catch {
+    overrides = {};
+  }
+
+  const applied: string[] = [];
+  for (let i = 0; i < updatedTeams.length; i++) {
+    const team = updatedTeams[i]!;
+    const ov = overrides[team.id];
+    if (!ov) continue;
+    const next = { ...team };
+    if (ov.offensePpgDelta) {
+      next.offensePpg = round1(next.offensePpg + ov.offensePpgDelta);
+    }
+    if (ov.defensePapgDelta) {
+      next.defensePapg = round1(next.defensePapg + ov.defensePapgDelta);
+    }
+    next.ratingNote = ov.reason;
+    updatedTeams[i] = next;
+    applied.push(
+      `${team.abbreviation} off ${team.offensePpg}→${next.offensePpg}` +
+        (ov.defensePapgDelta
+          ? ` def ${team.defensePapg}→${next.defensePapg}`
+          : "")
+    );
+  }
   const meanWeight = round2(weightSum / updatedTeams.length);
   const statsWeek = seasonUnderway ? inferStatsWeek(maxGp) : null;
   const gamesPlayedMax = seasonUnderway ? maxGp : 0;
@@ -301,6 +340,10 @@ async function main() {
   );
   console.log(`  statsWeek: ${statsWeek ?? "preseason"}`);
   console.log(`  ${statsMeta.note}`);
+  if (applied.length > 0) {
+    console.log("  Rating overrides:");
+    for (const line of applied) console.log(`    ${line}`);
+  }
 
   // Top / bottom net for a quick sanity check
   const ranked = [...updatedTeams]
